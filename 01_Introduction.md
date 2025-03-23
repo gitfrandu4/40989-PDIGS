@@ -1,10 +1,10 @@
-# 01. Introduction
+# 01. Introduction to Project Management
 
 Proyectos de Ingeniería y Gestión del Software
 
 ## Índice
 
-- [01. Introduction](#01-introduction)
+- [01. Introduction to Project Management](#01-introduction-to-project-management)
   - [Índice](#índice)
   - [D1. Market research and SWOT](#d1-market-research-and-swot)
     - [Executive Summary](#executive-summary)
@@ -13,6 +13,20 @@ Proyectos de Ingeniería y Gestión del Software
       - [Weaknesses (Internal, Negative)](#weaknesses-internal-negative)
       - [Opportunities (External, Positive)](#opportunities-external-positive)
       - [Threats (External, Negative)](#threats-external-negative)
+  - [D2. Areas, tasks and modalities in project management](#d2-areas-tasks-and-modalities-in-project-management)
+    - [Introduction to Project Management](#introduction-to-project-management)
+    - [Knowledge Areas of Project Management](#knowledge-areas-of-project-management)
+    - [Predictive vs Adaptive Management](#predictive-vs-adaptive-management)
+      - [Predictive Management](#predictive-management)
+      - [Adaptive Management](#adaptive-management)
+      - [Hybrid Approach](#hybrid-approach)
+    - [Development vs Management](#development-vs-management)
+    - [Project Management Overview](#project-management-overview)
+    - [Trends in Project Management](#trends-in-project-management)
+    - [Roles and Skills of a Project Manager](#roles-and-skills-of-a-project-manager)
+    - [Common Project Management Mistakes](#common-project-management-mistakes)
+    - [Commitment vs Involvement](#commitment-vs-involvement)
+    - [Recommended Reading](#recommended-reading)
 
 ## D1. Market research and SWOT
 
@@ -117,3 +131,85 @@ Instructions to update the project tracking excel sheet:
   * Update
 
 ---
+
+## D2. Areas, tasks and modalities in project management
+
+### Introduction to Project Management
+
+Project Management (PM) involves planning, organizing, motivating, and controlling resources to achieve specific goals.
+
+### Knowledge Areas of Project Management
+
+1. **Integration Management**: Coordinate project activities across all areas.
+2. **Scope Management**: Ensure all necessary project elements are included.
+3. **Time Management**: Timely completion of project activities.
+4. **Quality Management**: Ensure outputs meet user needs and standards.
+5. **Resource Management**: Efficiently manage and monitor project resources.
+6. **Communications Management**: Effective planning and implementation of communications.
+7. **Procurement Management**: Manage purchasing and contracts.
+8. **Stakeholder Management**: Actively engage stakeholders.
+9. **Risk Management**: Identify and mitigate potential risks.
+10. **Cost Management**: Control financial resources effectively.
+
+### Predictive vs Adaptive Management
+
+#### Predictive Management
+Clear, upfront-defined requirements. (e.g., PMBOK, PRINCE2)
+
+#### Adaptive Management
+Flexible, iterative processes suitable for changing environments. (e.g., Scrum, Kanban, XP)
+
+#### Hybrid Approach
+Integrating predictive and adaptive methods for optimal outcomes.
+
+### Development vs Management
+- **Initial Planning**
+- **Production**
+- **Management** (Control & Monitoring)
+
+### Project Management Overview
+- Timely, quality delivery within budget and scope.
+- Clear distinction between unique projects and repetitive operational tasks.
+
+### Trends in Project Management
+- Agile methodologies
+- DevOps and DevSecOps
+- Product lifecycle management
+- Enhanced cybersecurity measures
+- Increasing use of IoT and mobile technologies
+- Effective use of social media
+- Advanced collaboration tools
+- GDPR/HIPAA compliance
+- Management of diverse, global teams
+- Servant leadership
+- Enhanced vendor management
+- Integration with PMOs and governance frameworks
+
+### Roles and Skills of a Project Manager
+
+**Roles:**
+- Planner & Organizer
+- Risk Manager
+- Coach & Facilitator
+- Communicator
+- Negotiator
+- Resource Manager
+
+**Key Skills:**
+- Hard Skills: Financial budgeting, PM methodologies, resource optimization, accurate documentation.
+- Soft Skills: Adaptability, emotional intelligence, problem-solving, clear communication, effective negotiation.
+
+### Common Project Management Mistakes
+- Misaligned organizational objectives
+- Poor stakeholder communication
+- Unrealistic scheduling
+- Resource mismanagement
+- Neglecting change control
+- Inadequate risk planning
+
+### Commitment vs Involvement
+Illustrated by the chicken and pig analogy: "The chicken is involved, but the pig is committed."
+
+### Recommended Reading
+- *Project Manager Absolute Beginner's Guide*, Gregory M. Horine
+- *Ingeniería del software*, Salvador Sánchez, Miguel Ángel Sicilia, Daniel Rodríguez
