@@ -22,11 +22,12 @@ Proyectos de Ingeniería y Gestión del Software
       - [Hybrid Approach](#hybrid-approach)
     - [Development vs Management](#development-vs-management)
     - [Project Management Overview](#project-management-overview)
+      - [Essential elements for a successful project](#essential-elements-for-a-successful-project)
+      - [What is a project?](#what-is-a-project)
     - [Trends in Project Management](#trends-in-project-management)
     - [Roles and Skills of a Project Manager](#roles-and-skills-of-a-project-manager)
     - [Common Project Management Mistakes](#common-project-management-mistakes)
     - [Commitment vs Involvement](#commitment-vs-involvement)
-    - [Recommended Reading](#recommended-reading)
   - [D3. Product Backlog](#d3-product-backlog)
     - [User Stories](#user-stories)
       - [Example User Story Structure:](#example-user-story-structure)
@@ -89,7 +90,7 @@ A SWOT Analysis assesses both internal and external factors that can shape your 
 
 #### Strengths (Internal, Positive)
 
-Characteristics of a **business** that give it an **advantage over others in the market.
+Characteristics of a **business** that give it an \*\*advantage over others in the market.
 
 - Qualities that differentiate you from competitors.
 - Skilled, knowledgeable team members.
@@ -196,33 +197,143 @@ The **scope** of work and requirements for the project are difficult to define.
 
 #### Hybrid Approach
 
-Integrating predictive and adaptive methods for optimal outcomes.
+- There is no "better" approach, only what fits the project you`re working on.
+- Every project is unique and requires a tailored approach. You will find differences in scale, scope and requirements.
+- Considering the project first and _then_ selection the right methodology is key.
+
+Choosing a **hybrid approach** allows you to combine the best of both worlds, leveraging the strengths of predictive and adaptive methodologies.
+
+- Predictive and adaptive approaches can work well together.
+- You may choose a hybrid of methodologies to get the best result for your project (for example PRINCE2 combine with Agile).
+- The PMI's PMBOK Guide framework includes a consideration for Agile, giving you room to incorporate elements of adaptive into your predictive project work.
 
 ### Development vs Management
 
-- **Initial Planning**
-- **Production**
-- **Management** (Control & Monitoring)
+**Interactions between Development and Management:**
+
+<img src="assets/2025-03-23-23-37-04.png" alt="Development vs Management" width="400"/>
 
 ### Project Management Overview
 
-- Timely, quality delivery within budget and scope.
-- Clear distinction between unique projects and repetitive operational tasks.
+#### Essential elements for a successful project
+
+- Delivers as promised.
+- Completes on time.
+- Completes within budget.
+- Delivers quality.
+- Achieves original purpose.
+- Meets all stakeholder expectations.
+- Maintains “win-win” relationships.
+
+#### What is a project?
+
+A project is the work performed by an organization **one time** to produce a **unique** outcome.
+
+- By _one time_, we mean the work has a definite beginning and a definite end.
+- By _unique_, we mean the work result is different in one or more ways from anything the organization has produced before.
+
+Examples of projects include the following:
+
+- Building a new house
+- Developing a new software application
+- Performing an assessment of current manufacturing processes
+- Improving an organizational business process
+- Writing a book
+- Relocating a company’s technology infrastructure to a new location or to a cloud platform
+- Merging two organizations
+- Developing a new medical device
+
+**What is not a project?**
+
+Operational work (operations of an organization) is the ongoing, repetitive set of activities that sustain the organization.
+
+Examples of ongoing operations include the following:
+
+- Processing customer orders
+- Performing accounts receivable and accounts payable activities
+- Executing daily manufacturing orders
+- Performing recommended equipment maintenance procedures
+- Conducting customer account maintenance
 
 ### Trends in Project Management
 
-- Agile methodologies
-- DevOps and DevSecOps
-- Product lifecycle management
-- Enhanced cybersecurity measures
-- Increasing use of IoT and mobile technologies
-- Effective use of social media
-- Advanced collaboration tools
-- GDPR/HIPAA compliance
-- Management of diverse, global teams
-- Servant leadership
-- Enhanced vendor management
-- Integration with PMOs and governance frameworks
+<img src="assets/2025-03-23-23-41-07.png" alt="Trends in Project Management" width="400"/>
+
+- **Agile approaches**
+
+  - Pace of change
+  - Need to adapt and generate products/systems quickly
+  - Difficulty in developing detailed work plans upfront
+
+- **DevOps and DevSecOps**
+
+  - Deliver value faster
+  - Integration and collaboration among traditionally disparate groups
+  - Process automation
+  - Transparency to be successful
+
+- **Product management**
+
+  - Teams and processes for the life of the product, not just the project
+  - Managing the entire life cycle of the product, not just the project
+  - Aligning and leveraging organizational resources by product groups
+
+- **Cybersecurity threats**
+
+  - Increased frequency, scale, and impact of cyber attacks
+  - Organizations are having to respond and update legacy
+
+- **Mobile and Internet of Things (IoT) applications**
+
+  - Growing use of mobile and wearable technologies
+  - Accelerating use of smart sensors in almost all devices
+
+- **Social media**
+
+  - When used responsibly and with purpose both internal and external to the organization, social media is a powerful tool
+  - If guidelines and security protocols are not established, it can be a problem.
+
+- **Project management collaboration tools**
+
+  - The move to virtual teams was accelerated in response to the pandemic
+  - The ability to set up and use a cloud-based collaboration work environment effectively is important
+
+- **Work management tools**
+
+  - Many organizations are leveraging work management tools to capture, manage, and monitor all work elements of a project and product
+
+- **GDPR/HIPAA privacy compliance**
+
+  - **GDPR** (_General Data Protection Regulation_) / **HIPAA** (_Health Insurance Portability and Accountability Act_) compliance requires to set up procedures and systems to ensure specific data items are protected and not put at risk.
+
+- **Managing virtual, cross-functional, and multicultural teams**
+
+  - Continuous advancements in workgroup and communications tools
+  - Increased integration of processes within an organization
+  - Continuous drive for increased organizational efficiencies
+  - It is very likely that your project team will consist of members from different physical locations (virtual), different functional departments (cross-functional), or different cultures (multicultural, global).
+
+- **Change agent**
+
+  - Most projects represent a change to business as usual
+  - The project manager is expected to play a key role in leading the stakeholders through the change and acceptance process.
+
+- **Servant leadership**
+
+  - Lack of formal authority
+  - Need to understand the requirements of all stakeholders
+  - Importance of facilitation, collaboration, and managing expectations
+  - There is a growing awareness that a servant leadership style is paramount for effective project management
+
+- **Managing vendors**
+
+  - Increased outsourcing of non-core activities
+  - Increased use of cloud services
+  - Projects leverage one or more vendors (suppliers) to get work done
+
+- **Working with PMOs and corporate governance processes**
+
+  - In corporate or multiple business unit environment, you most likely deal with a Project Management Office (PMO), a Product Line Management group, or other corporate governance processes
 
 ### Roles and Skills of a Project Manager
 
@@ -253,11 +364,6 @@ Integrating predictive and adaptive methods for optimal outcomes.
 
 Illustrated by the chicken and pig analogy: "The chicken is involved, but the pig is committed."
 
-### Recommended Reading
-
-- _Project Manager Absolute Beginner's Guide_, Gregory M. Horine
-- _Ingeniería del software_, Salvador Sánchez, Miguel Ángel Sicilia, Daniel Rodríguez
-
 ## D3. Product Backlog
 
 ### User Stories
@@ -277,14 +383,17 @@ User stories are simple descriptions of features from the user's perspective, em
 ### Roles and Responsibilities
 
 **Developers:**
+
 - Assist customers in formulating clear, valuable stories.
 - Clarify how user needs translate into valuable functionality.
 
 **Customers:**
+
 - Write user stories that initiate conversations rather than specifying overly detailed instructions upfront.
 - Ensure stories add clear user value, are independent, testable, and well-sized.
 
 **Customer Team:**
+
 - Includes testers, product managers, interaction designers, and real users.
 - Writes and prioritizes stories and defines acceptance criteria.
 
@@ -295,6 +404,7 @@ User stories are simple descriptions of features from the user's perspective, em
 Acceptance tests verify whether the developed feature meets the initial story requirements.
 
 **Example (Online Shopping App):**
+
 - Payment tested successfully with Visa, MasterCard, American Express.
 - Payment failed with Diner’s Club card (which the system does not support).
 - Various scenarios: expired cards, debit cards, incorrect or missing security numbers, over-limit transactions.
@@ -318,6 +428,7 @@ A typical user story evolves through stages:
 
 > Initial Story: “As a shopper, I want a simple checkout, so I can easily complete my purchases.”  
 > Sprint Backlog Tasks:
+>
 > - Implement credit card payment gateway.
 > - Integrate cart with payment page.
 > - Create user-friendly payment confirmation.
@@ -327,12 +438,14 @@ A typical user story evolves through stages:
 ### Advantages and Disadvantages of User Stories
 
 **Advantages:**
+
 - Encourages direct communication and rapid feedback.
 - Understandable by technical and non-technical stakeholders.
 - Suited for iterative (agile) development.
 - Encourages user participation and detail flexibility.
 
 **Disadvantages:**
+
 - Challenging to scale for large projects.
 - Additional documentation might be needed for traceability in extensive projects.
 
@@ -342,54 +455,59 @@ A typical user story evolves through stages:
 
 Created by Bill Wake, the INVEST criteria help ensure high-quality user stories:
 
-| Criterion    | Explanation                                               | Example                                                        |
-|--------------|-----------------------------------------------------------|----------------------------------------------------------------|
-| Independent  | Minimal dependency on other stories.                      | Separate payment by Visa, MasterCard, AMEX into individual stories. |
-| Negotiable   | Details finalized through customer-developer conversations. | Acceptance criteria detailed on story cards.                       |
-| Valuable     | Delivers clear value to end-user or customer.             | Storing payment info speeds future checkouts.                    |
-| Estimatable  | Team can estimate effort accurately.                      | Conduct technical/functional spikes for unclear areas.           |
-| Small        | Sized appropriately; too large (epics) should be split.   | “User can manage resume” → “User can create/edit/delete resume.” |
-| Testable     | Can clearly define pass/fail criteria.                    | “User can export order history as CSV.”                          |
+| Criterion   | Explanation                                                 | Example                                                             |
+| ----------- | ----------------------------------------------------------- | ------------------------------------------------------------------- |
+| Independent | Minimal dependency on other stories.                        | Separate payment by Visa, MasterCard, AMEX into individual stories. |
+| Negotiable  | Details finalized through customer-developer conversations. | Acceptance criteria detailed on story cards.                        |
+| Valuable    | Delivers clear value to end-user or customer.               | Storing payment info speeds future checkouts.                       |
+| Estimatable | Team can estimate effort accurately.                        | Conduct technical/functional spikes for unclear areas.              |
+| Small       | Sized appropriately; too large (epics) should be split.     | “User can manage resume” → “User can create/edit/delete resume.”    |
+| Testable    | Can clearly define pass/fail criteria.                      | “User can export order history as CSV.”                             |
 
 ---
 
 ### Clarifying Examples (INVEST Criteria Applied)
 
 - **Independent**:  
-  Instead of "User can pay by credit card," create independent stories like:  
-  - "User pays by Visa"  
+  Instead of "User can pay by credit card," create independent stories like:
+
+  - "User pays by Visa"
   - "User pays by MasterCard"
 
 - **Negotiable**:  
-  Initially vague "User manages account details" refined after discussions:  
-  - "User updates shipping address"  
+  Initially vague "User manages account details" refined after discussions:
+
+  - "User updates shipping address"
   - "User changes saved payment method"
 
 - **Valuable**:  
-  Avoid vague technical requirements. Instead:  
+  Avoid vague technical requirements. Instead:
+
   - "User can view error messages easily (user value)"  
-  Rather than "System uses common logging classes (technical detail)."
+    Rather than "System uses common logging classes (technical detail)."
 
 - **Estimatable** (Handling Uncertainty):  
-  Use spikes (research-oriented tasks):  
-  - **Functional Spike**: Prototype UI to gather user feedback.  
+  Use spikes (research-oriented tasks):
+  - **Functional Spike**: Prototype UI to gather user feedback.
   - **Technical Spike**: Research third-party APIs for integration feasibility.
 
-**Spike Examples**:  
-- "Prototype energy usage histogram to validate visual clarity." (Functional Spike)  
+**Spike Examples**:
+
+- "Prototype energy usage histogram to validate visual clarity." (Functional Spike)
 - "Test API response times to assess real-time dashboard feasibility." (Technical Spike)
 
 - **Small** (Splitting Epics):  
   Large stories ("epics") divided into smaller stories:  
   Original epic: "User can manage job search profiles."  
-  Smaller stories:  
-  - "User creates new job search profiles."  
-  - "User edits existing profiles."  
+  Smaller stories:
+
+  - "User creates new job search profiles."
+  - "User edits existing profiles."
   - "User deletes profiles."
 
 - **Testable**:  
-  Clearly defined acceptance criteria:  
-  - Good: "User can export order history as CSV."  
+  Clearly defined acceptance criteria:
+  - Good: "User can export order history as CSV."
   - Poor: "System feels fast and responsive."
 
 ---
@@ -399,14 +517,17 @@ Created by Bill Wake, the INVEST criteria help ensure high-quality user stories:
 **Example User Stories:**
 
 - **Search**:
+
   - "User searches books by title, author, ISBN."
   - "User views detailed book info (pages, description)."
 
 - **Purchase**:
+
   - "User adds/removes books from cart."
   - "User completes checkout with credit card."
 
 - **User Accounts**:
+
   - "User creates account with saved payment and shipping details."
   - "User edits account info."
 
@@ -414,8 +535,9 @@ Created by Bill Wake, the INVEST criteria help ensure high-quality user stories:
   - "User creates visible wish lists."
   - "User writes and submits book reviews."
 
-**Constraints (special considerations)**:  
-- "System supports peak use of up to 50 concurrent users."  
+**Constraints (special considerations)**:
+
+- "System supports peak use of up to 50 concurrent users."
 - "Order records integrate seamlessly with telephone orders."
 
 ---
@@ -432,4 +554,6 @@ Created by Bill Wake, the INVEST criteria help ensure high-quality user stories:
 
 ### Recommended Reading (for deeper study):
 
-- **"User Stories Applied: For Agile Software Development"** by Mike Cohn. (Highly recommended for comprehensive understanding and practical application)
+- _Project Manager Absolute Beginner's Guide_, Gregory M. Horine
+- _Ingeniería del software_, Salvador Sánchez, Miguel Ángel Sicilia, Daniel Rodríguez
+- _User Stories Applied: For Agile Software Development_", Mike Cohn. (Highly recommended for comprehensive understanding and practical application)
