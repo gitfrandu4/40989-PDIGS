@@ -27,6 +27,18 @@ Proyectos de Ingeniería y Gestión del Software
     - [Common Project Management Mistakes](#common-project-management-mistakes)
     - [Commitment vs Involvement](#commitment-vs-involvement)
     - [Recommended Reading](#recommended-reading)
+  - [D3. Product Backlog](#d3-product-backlog)
+    - [User Stories](#user-stories)
+      - [Example User Story Structure:](#example-user-story-structure)
+    - [Roles and Responsibilities](#roles-and-responsibilities)
+    - [Acceptance Tests](#acceptance-tests)
+    - [User Story Lifecycle](#user-story-lifecycle)
+    - [Advantages and Disadvantages of User Stories](#advantages-and-disadvantages-of-user-stories)
+    - [Writing Effective User Stories (INVEST Criteria)](#writing-effective-user-stories-invest-criteria)
+    - [Clarifying Examples (INVEST Criteria Applied)](#clarifying-examples-invest-criteria-applied)
+    - [Real-world Example: Bookshop Application](#real-world-example-bookshop-application)
+    - [Study Notes \& Good Practices](#study-notes--good-practices)
+    - [Recommended Reading (for deeper study):](#recommended-reading-for-deeper-study)
 
 ## D1. Market research and SWOT
 
@@ -77,7 +89,7 @@ A SWOT Analysis assesses both internal and external factors that can shape your 
 
 #### Strengths (Internal, Positive)
 
-Characteristics of a **business** that give it an \*\*advantage over others in the market.
+Characteristics of a **business** that give it an **advantage over others in the market.
 
 - Qualities that differentiate you from competitors.
 - Skilled, knowledgeable team members.
@@ -102,7 +114,7 @@ Elements in a company's **external** environment that allow it to formulate and 
 
 #### Threats (External, Negative)
 
-Elements in a company's **external** environment that could cause **endanger** the business, it's profitability, or its competitive position.
+Elements in a company's **external** environment that could cause **endanger** the business, its profitability, or its competitive position.
 
 - Strong emerging competitors.
 - Changing regulations or industry standards that may add complexity.
@@ -245,3 +257,179 @@ Illustrated by the chicken and pig analogy: "The chicken is involved, but the pi
 
 - _Project Manager Absolute Beginner's Guide_, Gregory M. Horine
 - _Ingeniería del software_, Salvador Sánchez, Miguel Ángel Sicilia, Daniel Rodríguez
+
+## D3. Product Backlog
+
+### User Stories
+
+User stories are simple descriptions of features from the user's perspective, emphasizing value to the user. A complete user story has three components, known as the **CCC** (Card, Conversation, Confirmation):
+
+- **Card**: Written description.
+- **Conversation**: Discussions for clarity and detail.
+- **Confirmation**: Tests ensuring completion criteria are met.
+
+#### Example User Story Structure:
+
+> “As a (user role), I want to (action), so that (benefit).”
+
+- **Example**: “As an online shopper, I want to pay with my credit card, so that I can complete my purchase quickly.”
+
+### Roles and Responsibilities
+
+**Developers:**
+- Assist customers in formulating clear, valuable stories.
+- Clarify how user needs translate into valuable functionality.
+
+**Customers:**
+- Write user stories that initiate conversations rather than specifying overly detailed instructions upfront.
+- Ensure stories add clear user value, are independent, testable, and well-sized.
+
+**Customer Team:**
+- Includes testers, product managers, interaction designers, and real users.
+- Writes and prioritizes stories and defines acceptance criteria.
+
+---
+
+### Acceptance Tests
+
+Acceptance tests verify whether the developed feature meets the initial story requirements.
+
+**Example (Online Shopping App):**
+- Payment tested successfully with Visa, MasterCard, American Express.
+- Payment failed with Diner’s Club card (which the system does not support).
+- Various scenarios: expired cards, debit cards, incorrect or missing security numbers, over-limit transactions.
+
+**Good Practice**: Clearly define acceptance criteria before development to ensure clarity and efficiency.
+
+---
+
+### User Story Lifecycle
+
+A typical user story evolves through stages:
+
+1. **Discovery** (initial understanding of user needs)
+2. **Product Backlog** (prioritized user stories)
+3. **Release Planning** (stories selected for specific release)
+4. **Sprint Planning** (stories broken into detailed tasks)
+5. **Sprint Execution** (development and testing)
+6. **Acceptance Testing & Delivery**
+
+**Example**:
+
+> Initial Story: “As a shopper, I want a simple checkout, so I can easily complete my purchases.”  
+> Sprint Backlog Tasks:
+> - Implement credit card payment gateway.
+> - Integrate cart with payment page.
+> - Create user-friendly payment confirmation.
+
+---
+
+### Advantages and Disadvantages of User Stories
+
+**Advantages:**
+- Encourages direct communication and rapid feedback.
+- Understandable by technical and non-technical stakeholders.
+- Suited for iterative (agile) development.
+- Encourages user participation and detail flexibility.
+
+**Disadvantages:**
+- Challenging to scale for large projects.
+- Additional documentation might be needed for traceability in extensive projects.
+
+---
+
+### Writing Effective User Stories (INVEST Criteria)
+
+Created by Bill Wake, the INVEST criteria help ensure high-quality user stories:
+
+| Criterion    | Explanation                                               | Example                                                        |
+|--------------|-----------------------------------------------------------|----------------------------------------------------------------|
+| Independent  | Minimal dependency on other stories.                      | Separate payment by Visa, MasterCard, AMEX into individual stories. |
+| Negotiable   | Details finalized through customer-developer conversations. | Acceptance criteria detailed on story cards.                       |
+| Valuable     | Delivers clear value to end-user or customer.             | Storing payment info speeds future checkouts.                    |
+| Estimatable  | Team can estimate effort accurately.                      | Conduct technical/functional spikes for unclear areas.           |
+| Small        | Sized appropriately; too large (epics) should be split.   | “User can manage resume” → “User can create/edit/delete resume.” |
+| Testable     | Can clearly define pass/fail criteria.                    | “User can export order history as CSV.”                          |
+
+---
+
+### Clarifying Examples (INVEST Criteria Applied)
+
+- **Independent**:  
+  Instead of "User can pay by credit card," create independent stories like:  
+  - "User pays by Visa"  
+  - "User pays by MasterCard"
+
+- **Negotiable**:  
+  Initially vague "User manages account details" refined after discussions:  
+  - "User updates shipping address"  
+  - "User changes saved payment method"
+
+- **Valuable**:  
+  Avoid vague technical requirements. Instead:  
+  - "User can view error messages easily (user value)"  
+  Rather than "System uses common logging classes (technical detail)."
+
+- **Estimatable** (Handling Uncertainty):  
+  Use spikes (research-oriented tasks):  
+  - **Functional Spike**: Prototype UI to gather user feedback.  
+  - **Technical Spike**: Research third-party APIs for integration feasibility.
+
+**Spike Examples**:  
+- "Prototype energy usage histogram to validate visual clarity." (Functional Spike)  
+- "Test API response times to assess real-time dashboard feasibility." (Technical Spike)
+
+- **Small** (Splitting Epics):  
+  Large stories ("epics") divided into smaller stories:  
+  Original epic: "User can manage job search profiles."  
+  Smaller stories:  
+  - "User creates new job search profiles."  
+  - "User edits existing profiles."  
+  - "User deletes profiles."
+
+- **Testable**:  
+  Clearly defined acceptance criteria:  
+  - Good: "User can export order history as CSV."  
+  - Poor: "System feels fast and responsive."
+
+---
+
+### Real-world Example: Bookshop Application
+
+**Example User Stories:**
+
+- **Search**:
+  - "User searches books by title, author, ISBN."
+  - "User views detailed book info (pages, description)."
+
+- **Purchase**:
+  - "User adds/removes books from cart."
+  - "User completes checkout with credit card."
+
+- **User Accounts**:
+  - "User creates account with saved payment and shipping details."
+  - "User edits account info."
+
+- **Additional Features**:
+  - "User creates visible wish lists."
+  - "User writes and submits book reviews."
+
+**Constraints (special considerations)**:  
+- "System supports peak use of up to 50 concurrent users."  
+- "Order records integrate seamlessly with telephone orders."
+
+---
+
+### Study Notes & Good Practices
+
+- Keep user stories concise; use conversations to elaborate.
+- Always prioritize stories by user value.
+- Regularly review acceptance criteria clarity and completeness.
+- Use spikes for uncertainty; they're an essential agile practice.
+- Document essential details clearly to avoid misunderstandings.
+
+---
+
+### Recommended Reading (for deeper study):
+
+- **"User Stories Applied: For Agile Software Development"** by Mike Cohn. (Highly recommended for comprehensive understanding and practical application)
