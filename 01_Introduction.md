@@ -77,7 +77,7 @@ A SWOT Analysis assesses both internal and external factors that can shape your 
 
 #### Strengths (Internal, Positive)
 
-Characteristics of a **business** that give it an **advantage over others in the market.
+Characteristics of a **business** that give it an \*\*advantage over others in the market.
 
 - Qualities that differentiate you from competitors.
 - Skilled, knowledgeable team members.
@@ -110,25 +110,28 @@ Elements in a company's **external** environment that could cause **endanger** t
 
 ---
 
-Instructions to update the project tracking excel sheet:
+**Instructions to update the project tracking [excel](Tracking.xlsx) file**
 
-* TEAM
-  * Add team members and assign a user (short name) to each of them
+- TEAM
 
-* WBS
-  * Always use two levels (Task-Subtask)
-  * Use significant names
-  * Do not mix tasks and subtasks in the same row
-  * Add an estimation for each subtask
-  * Do not write in blue cells
+  - Add team members and assign a user (short name) to each of them
 
-* TRACKING
-  * Add date and times
-  * Select task, subtask and author from the lists
-  * Add one row for each member-subtask pair
+- WBS
 
-* Dynamic tables and graphs
-  * Update
+  - Always use two levels (Task-Subtask)
+  - Use significant names
+  - Do not mix tasks and subtasks in the same row
+  - Add an estimation for each subtask
+  - Do not write in blue cells
+
+- TRACKING
+
+  - Add date and times
+  - Select task, subtask and author from the lists
+  - Add one row for each member-subtask pair
+
+- Dynamic tables and graphs
+  - Update
 
 ---
 
@@ -139,6 +142,8 @@ Instructions to update the project tracking excel sheet:
 Project Management (PM) involves planning, organizing, motivating, and controlling resources to achieve specific goals.
 
 ### Knowledge Areas of Project Management
+
+Top 10 PM Knowledge Areas:
 
 1. **Integration Management**: Coordinate project activities across all areas.
 2. **Scope Management**: Ensure all necessary project elements are included.
@@ -154,24 +159,46 @@ Project Management (PM) involves planning, organizing, motivating, and controlli
 ### Predictive vs Adaptive Management
 
 #### Predictive Management
-Clear, upfront-defined requirements. (e.g., PMBOK, PRINCE2)
+
+- The **scope** of work **and requirements** for the project **are clear** and justify the detailed upfront planning.
+- Also called traditional, conventional or waterfall project management.
+- Popular methodologies:
+  - PMBOK (Project Management Body of Knowledge)
+  - PRINCE2 (Projects in Controlled Environments)
+  - Waterfall
 
 #### Adaptive Management
-Flexible, iterative processes suitable for changing environments. (e.g., Scrum, Kanban, XP)
+
+The **scope** of work and requirements for the project are difficult to define.
+
+- Rapidly changing environment.
+- Requirements are clarified in short iterations.
+- Also referred to as responsive, iterative or agile project management.
+- Frameworks include:
+  - Scrum
+  - Kanban
+  - XP (Extreme programming)
+  - DSDM (Dynamic system development method)
+  - Crystal
+  - FDD (Feature-driven development)
 
 #### Hybrid Approach
+
 Integrating predictive and adaptive methods for optimal outcomes.
 
 ### Development vs Management
+
 - **Initial Planning**
 - **Production**
 - **Management** (Control & Monitoring)
 
 ### Project Management Overview
+
 - Timely, quality delivery within budget and scope.
 - Clear distinction between unique projects and repetitive operational tasks.
 
 ### Trends in Project Management
+
 - Agile methodologies
 - DevOps and DevSecOps
 - Product lifecycle management
@@ -188,6 +215,7 @@ Integrating predictive and adaptive methods for optimal outcomes.
 ### Roles and Skills of a Project Manager
 
 **Roles:**
+
 - Planner & Organizer
 - Risk Manager
 - Coach & Facilitator
@@ -196,10 +224,12 @@ Integrating predictive and adaptive methods for optimal outcomes.
 - Resource Manager
 
 **Key Skills:**
+
 - Hard Skills: Financial budgeting, PM methodologies, resource optimization, accurate documentation.
 - Soft Skills: Adaptability, emotional intelligence, problem-solving, clear communication, effective negotiation.
 
 ### Common Project Management Mistakes
+
 - Misaligned organizational objectives
 - Poor stakeholder communication
 - Unrealistic scheduling
@@ -208,8 +238,10 @@ Integrating predictive and adaptive methods for optimal outcomes.
 - Inadequate risk planning
 
 ### Commitment vs Involvement
+
 Illustrated by the chicken and pig analogy: "The chicken is involved, but the pig is committed."
 
 ### Recommended Reading
-- *Project Manager Absolute Beginner's Guide*, Gregory M. Horine
-- *Ingeniería del software*, Salvador Sánchez, Miguel Ángel Sicilia, Daniel Rodríguez
+
+- _Project Manager Absolute Beginner's Guide_, Gregory M. Horine
+- _Ingeniería del software_, Salvador Sánchez, Miguel Ángel Sicilia, Daniel Rodríguez
