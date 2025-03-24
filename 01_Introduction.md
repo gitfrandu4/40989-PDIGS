@@ -34,13 +34,18 @@ Proyectos de Ingeniería y Gestión del Software
     - [Involvement vs commitment](#involvement-vs-commitment)
   - [D3. Product Backlog](#d3-product-backlog)
     - [User Stories](#user-stories)
-      - [Example User Story Structure:](#example-user-story-structure)
     - [Roles and Responsibilities](#roles-and-responsibilities)
     - [Acceptance Tests](#acceptance-tests)
     - [User Story Lifecycle](#user-story-lifecycle)
     - [Advantages and Disadvantages of User Stories](#advantages-and-disadvantages-of-user-stories)
     - [Writing Effective User Stories (INVEST Criteria)](#writing-effective-user-stories-invest-criteria)
     - [Clarifying Examples (INVEST Criteria Applied)](#clarifying-examples-invest-criteria-applied)
+      - [Independent](#independent)
+      - [Negotiable](#negotiable)
+      - [Valuable](#valuable)
+      - [Estimable (Handling Uncertainty):](#estimable-handling-uncertainty)
+      - [Small (Splitting Epics):](#small-splitting-epics)
+      - [Testable](#testable)
     - [Real-world Example: Bookshop Application](#real-world-example-bookshop-application)
     - [Study Notes \& Good Practices](#study-notes--good-practices)
     - [Recommended Reading (for deeper study):](#recommended-reading-for-deeper-study)
@@ -356,6 +361,7 @@ The deliverables must achieve a certain performance level (_quality_) and meet t
 **Planner + Organizer**
 
 - Ensures that:
+
   - the project is defined properly and completely for success
   - all stakeholders are engaged
   - work effort approach is determined
@@ -372,6 +378,7 @@ The deliverables must achieve a certain performance level (_quality_) and meet t
 **Police Officer + Bulldog**
 
 - Performs the follow-up to ensure that:
+
   - commitments are maintained
   - issues are resolved
   - action items are completed
@@ -384,6 +391,7 @@ The deliverables must achieve a certain performance level (_quality_) and meet t
 **Coach + Facilitator**
 
 - Is the one who:
+
   - determines the role each team member plays and the importance of that role to the project’s success
   - finds ways to motivate each team member
   - looks for ways to improve the skills of each team member
@@ -395,10 +403,12 @@ The deliverables must achieve a certain performance level (_quality_) and meet t
 **Insurance Agent + Problem Solver + Umbrella**
 
 - Continuously works to:
+
   - identify risks
   - develop responses to those risk events in advance
 
 - Resolves:
+
   - unforeseen technical issues and take any necessary corrective actions
 
 - Works to shield the project team from:
@@ -483,11 +493,14 @@ Is this the reason why this course is called PIGS?
 
 User stories are simple descriptions of features from the user's perspective, emphasizing value to the user. A complete user story has three components, known as the **CCC** (Card, Conversation, Confirmation):
 
-- **Card**: Written description.
-- **Conversation**: Discussions for clarity and detail.
-- **Confirmation**: Tests ensuring completion criteria are met.
+- **Card**: a written description of the story.
+- **Conversation**: conversations about the story that serve to increase the details and understanding of the story.
+  - **Who**: The user role.
+  - **What**: The action.
+  - **Why**: The benefit.
+- **Confirmation**: Tests that convey and document details and that can be used to determine when a story is complete.
 
-#### Example User Story Structure:
+**Example User Story Structure**:
 
 > “As a (user role), I want to (action), so that (benefit).”
 
@@ -509,6 +522,7 @@ User stories are simple descriptions of features from the user's perspective, em
 
 - Includes testers, product managers, interaction designers, and real users.
 - Writes and prioritizes stories and defines acceptance criteria.
+- Writes the story cards because they are in the best position to express the desired features and because they must later be able to work out story details with the developers and to prioritize the stories.
 
 ---
 
@@ -527,6 +541,8 @@ Acceptance tests verify whether the developed feature meets the initial story re
 ---
 
 ### User Story Lifecycle
+
+<img src="assets/2025-03-24-02-05-49.png" alt="User Story Lifecycle" width="400"/>
 
 A typical user story evolves through stages:
 
@@ -552,19 +568,31 @@ A typical user story evolves through stages:
 
 **Advantages:**
 
-- Encourages direct communication and rapid feedback.
-- Understandable by technical and non-technical stakeholders.
-- Suited for iterative (agile) development.
-- Encourages user participation and detail flexibility.
+- Force a shift to **verbal communication**.
+- Provides **rapid feedback** cycles.
+- Are **comprehensible** by both developers and users.
+- Are the **right size** for planning.
+- Work well with **iterative** development.
+- Encourage **deferring details**.
+- Encourage **opportunistic development**, in which the team readily shifts focus between high and low levels of detail as opportunities are discovered.
+- Encourage **participatory design**, in which users become active and valued participants.
 
 **Disadvantages:**
 
-- Challenging to scale for large projects.
-- Additional documentation might be needed for traceability in extensive projects.
+- On **large projects** it can be **difficult to keep** hundreds or thousands of stories organized; they may need to be augmented with additional documents for traceability.
+
+- **Conversations do not scale** adequately to entirely replace written documents on large projects.
 
 ---
 
 ### Writing Effective User Stories (INVEST Criteria)
+
+- **I**ndependent
+- **N**egotiable
+- **V**aluable to users or customers
+- **E**stimatable
+- **S**mall
+- **T**estable
 
 Created by Bill Wake, the INVEST criteria help ensure high-quality user stories:
 
@@ -581,47 +609,117 @@ Created by Bill Wake, the INVEST criteria help ensure high-quality user stories:
 
 ### Clarifying Examples (INVEST Criteria Applied)
 
-- **Independent**:  
-  Instead of "User can pay by credit card," create independent stories like:
+#### Independent
 
-  - "User pays by Visa"
-  - "User pays by MasterCard"
+Ideally, stories should be self-contained. (this is not always possible)
 
-- **Negotiable**:  
-  Initially vague "User manages account details" refined after discussions:
+Instead of "User can pay by credit card," create independent stories like:
 
-  - "User updates shipping address"
-  - "User changes saved payment method"
+- "User pays by Visa"
+- "User pays by MasterCard"
 
-- **Valuable**:  
-  Avoid vague technical requirements. Instead:
+#### Negotiable
 
-  - "User can view error messages easily (user value)"  
-    Rather than "System uses common logging classes (technical detail)."
+Details are to be negotiated in a conversation between the customer and the development team. Details that have already been determined through conversations become tests. Tests can be noted on the back of the story card.
 
-- **Estimatable** (Handling Uncertainty):  
-  Use spikes (research-oriented tasks):
-  - **Functional Spike**: Prototype UI to gather user feedback.
-  - **Technical Spike**: Research third-party APIs for integration feasibility.
+| Don't:                                                                    | Do:                                                                        |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| <img src="assets/2025-03-24-02-16-50.png" alt="Bad Example" width="400"/> | <img src="assets/2025-03-24-02-16-07.png" alt="Good Example" width="400"/> |
+
+#### Valuable
+
+Avoid vague technical requirements. Instead:
+
+- "User can view error messages easily (user value)"  
+  Rather than "System uses common logging classes (technical detail)."
+
+| Don't:                                                                    | Do:                                                                        |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| <img src="assets/2025-03-24-02-18-29.png" alt="Bad Example" width="400"/> | <img src="assets/2025-03-24-02-18-37.png" alt="Good Example" width="400"/> |
+
+#### Estimable (Handling Uncertainty):
+
+- Reasons why a story can not be estimable:
+
+  - Lack of clarity on requirements.
+  - Developers lack domain knowledge.
+  - Development team lacks technical expertise.
+  - The story is too large or complex (epic).
+
+- Use spikes (research-oriented tasks):
+  - **Functional Spike** (_what?_): They are used to analyze overall solution behavior and determine:
+    - How to break it down
+    - How to organize the work
+    - Where risk and complexity exist
+    - How to use insights to influence implementation decisions
+  - **Technical Spike** (_how?_):They are used to research various approaches in the solution domain. For example:
+    - Determine a build-versus-buy decision
+    - Evaluate the potential performance or load impact of a new user story
+    - Evaluate specific technical implementation approaches
+    - Develop confidence about the desired solution path
 
 **Spike Examples**:
 
-- "Prototype energy usage histogram to validate visual clarity." (Functional Spike)
-- "Test API response times to assess real-time dashboard feasibility." (Technical Spike)
+- "As a consumer, I want to see my daily energy use in a histogram so that I can quickly understand my past, current, and projected energy consumption” (epic).
+- "Prototype energy usage histogram to validate visual clarity." (**Functional Spike**)
+- "Test API response times to assess real-time dashboard feasibility." (**Technical Spike**)
 
-- **Small** (Splitting Epics):  
-  Large stories ("epics") divided into smaller stories:  
-  Original epic: "User can manage job search profiles."  
-  Smaller stories:
+#### Small (Splitting Epics):
 
-  - "User creates new job search profiles."
-  - "User edits existing profiles."
-  - "User deletes profiles."
+- If stories are too small, they can be combined into a larger one.
+- If they are too large (epics), they typically fall into one of two categories:
+  - The compound story: A single story that includes multiple, unrelated features.
+  - The complex story: A single story that includes multiple, related features.
 
-- **Testable**:  
-  Clearly defined acceptance criteria:
-  - Good: "User can export order history as CSV."
-  - Poor: "System feels fast and responsive."
+Example:
+
+- Original epic: "User can manage job search profiles."
+
+Smaller stories:
+
+**Disaggregation 1 (by operation: create, edit, delete)**
+
+- A user can **create** resumes, which include education, prior jobs, salary history, publications, presentations, community service, and an objective.
+- A user can **edit** a resume.
+- A user can **delete** a resume.
+- A user can **have multiple** resumes.
+- A user can **activate and inactivate** resumes.
+
+**Disaggregation 2 (by data)**
+
+- A user can add and edit **education information**.
+- A user can add and edit **job history information**.
+- A user can add and edit **salary history information**.
+- A user can add and edit **publications**.
+- A user can add and edit **presentations**.
+- A user can add and edit **community service**.
+- A user can add and edit **an objective**.
+
+Another example:
+
+- Original epic: “A user can search for jobs.”
+
+Details:
+
+- What values can users search on? State? City? Job title? Keywords?
+- Does the user have to be a member of the site?
+- Can search parameters be saved?
+- What information is displayed for matching jobs?
+
+Then:
+
+- A user can search for jobs by attributes like location, salary range, job title, company name, and the date the job was posted.
+- A user can view information about each job that is matched by a search.
+- A user can view detailed information about a company that has posted a job.
+
+
+
+#### Testable
+
+Clearly defined acceptance criteria:
+
+- Good: "User can export order history as CSV."
+- Poor: "System feels fast and responsive."
 
 ---
 
