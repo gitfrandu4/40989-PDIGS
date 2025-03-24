@@ -30,7 +30,10 @@
     - [Scrum and Agile Estimations](#scrum-and-agile-estimations)
       - [Scrum Principles](#scrum-principles)
       - [User Story Estimation](#user-story-estimation)
+        - [Developer Responsibilities](#developer-responsibilities)
+        - [Customer Responsibilities](#customer-responsibilities)
       - [Planning Poker (Scrum Poker)](#planning-poker-scrum-poker)
+      - [Estimating user stories](#estimating-user-stories)
     - [Practical Example: Online Bookshop](#practical-example-online-bookshop)
   - [D5. Cost Estimation](#d5-cost-estimation)
     - [Introduction](#introduction)
@@ -311,6 +314,8 @@ the price.
 
 ### Scrum and Agile Estimations
 
+<img src="assets/2025-03-24-04-02-19.png" alt="Scrum Scheme" width="800"/>
+
 #### Scrum Principles
 
 - Iterative, incremental, agile methodology; flexible to requirement changes.
@@ -322,12 +327,69 @@ the price.
 - Triangulate an estimate by comparing it to other estimates.
 - Whether or not a team programs in pairs has no impact on story point estimates. **Pair programming affects the team’s velocity, not their estimates**.
 
+##### Developer Responsibilities
+
+- Defining story points in a manner that is relevant and usable by your team and consistently sticking to that definition.
+- Giving honest estimates and not giving in to temptation or pressure to give low estimates.
+- Estimating as a team.
+- Giving estimates that are consistent with other estimates (e.g., all the two-point stories should be similar).
+
+##### Customer Responsibilities
+
+- Participating in estimation meetings, answering questions and clarifying stories, not estimating stories yourself.
+
+
 #### Planning Poker (Scrum Poker)
 
 - Team consensus method using Fibonacci numbers for estimating complexity.
 - Encourages dialogue, improves estimation accuracy.
 
+<img src="assets/2025-03-24-04-05-09.png" alt="Planning Poker" width="800"/>
+<img src="assets/2025-03-24-04-05-45.png" alt="Planning Poker" width="800"/>
+<img src="assets/2025-03-24-04-06-08.png" alt="Planning Poker" width="800"/>
+
+#### Estimating user stories
+
+<img src="assets/2025-03-24-04-07-00.png" alt="Estimating User Stories" width="800"/>
+
+* Actual days will differ from ideal days
+* It is common to start with an expected velocity that is somewhere between one-third and one-half the number of developer-days in an iteration.
+
+<img src="assets/2025-03-24-04-10-06.png" alt="Sample Burndown Chart" width="800"/>
+
 ### Practical Example: Online Bookshop
+
+- Must have
+- Should have
+- Could have
+- Won’t have
+
+Example:
+
+| Description | Estimation | Priority |
+|-------------|------------|----------|
+| A user can do a basic simple search that searches for a word or phrase in both the author and title fields. | 1 | Must |
+| A user can search for books by entering values in any combination of author, title and ISBN. | 1 | Must |
+| A user can view detailed information on a book. For example, number of pages, publication date and a brief description. | 1 | Must |
+| A user can put books into a "shopping cart" and buy them when they are done shopping. | 1 | Must |
+| A user can remove books from their cart before completing an order. | ½ | Must |
+| To buy a book the user enters their billing address, the shipping address and credit card information. | 2 | Must |
+| A user can view a history of all of their past orders. | 1 | Should |
+| A user can easily re-purchase items when viewing past orders. | ½ | Should |
+| The site always tells a shopper what the last 3 items they viewed are and provides links back to them (this works even between sessions). | 1 | Could |
+| A user can see what books we recommend on a variety of topics. | 3 | Could |
+| A user can choose to have items gift wrapped. | ½ | Should |
+| A user can choose to enclose a gift card and can write their own message for the card. | ½ | Should |
+| A user can rate books from 1 (bad) to 5 (good). The book does not have to be one the user bought from us. | 2 | Should |
+| A user can write a review of a book. They can preview the review before submitting it. The book does not have to be one the user bought from us. | 5 | Could |
+| An administrator needs to approve or reject reviews before they are published. | 2 | Should |
+| A Report Viewer can see reports of daily purchases broken down by book category, traffic, best- and worst-selling books and so on. | 8 | Could |
+| A user must be properly authenticated before viewing reports. | 1 | Must |
+| Orders made on the website have to end up in the same order database as telephone orders. | 0 | Must |
+| An administrator can add new books to the site. | 1 | Must |
+| An administrator can delete a book. | ½ | Must |
+| An administrator can edit the information about an existing books. | 1 | Must |
+| The system must support peak usage of up to 50 concurrent users. | 0 | Must |
 
 - Demonstrates how user stories are prioritized (Must, Should, Could, Won’t have).
 - Practical scenario highlighting estimation and scope management.
