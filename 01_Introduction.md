@@ -1,11 +1,6 @@
 # 01. Introduction to Project Management
 
-Proyectos de Ingeniería y Gestión del Software
-
-## Índice
-
 - [01. Introduction to Project Management](#01-introduction-to-project-management)
-  - [Índice](#índice)
   - [D1. Market research and SWOT](#d1-market-research-and-swot)
     - [Executive Summary](#executive-summary)
     - [SWOT Analysis](#swot-analysis)
