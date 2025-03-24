@@ -24,10 +24,14 @@ Proyectos de Ingeniería y Gestión del Software
     - [Project Management Overview](#project-management-overview)
       - [Essential elements for a successful project](#essential-elements-for-a-successful-project)
       - [What is a project?](#what-is-a-project)
-    - [Trends in Project Management](#trends-in-project-management)
+      - [Trends in Project Management](#trends-in-project-management)
+      - [Balancing the competing demands](#balancing-the-competing-demands)
     - [Roles and Skills of a Project Manager](#roles-and-skills-of-a-project-manager)
-    - [Common Project Management Mistakes](#common-project-management-mistakes)
-    - [Commitment vs Involvement](#commitment-vs-involvement)
+    - [The project manager](#the-project-manager)
+      - [Hard skills](#hard-skills)
+      - [Soft skills](#soft-skills)
+      - [Common mistakes](#common-mistakes)
+    - [Involvement vs commitment](#involvement-vs-commitment)
   - [D3. Product Backlog](#d3-product-backlog)
     - [User Stories](#user-stories)
       - [Example User Story Structure:](#example-user-story-structure)
@@ -255,7 +259,7 @@ Examples of ongoing operations include the following:
 - Performing recommended equipment maintenance procedures
 - Conducting customer account maintenance
 
-### Trends in Project Management
+#### Trends in Project Management
 
 <img src="assets/2025-03-23-23-41-07.png" alt="Trends in Project Management" width="400"/>
 
@@ -335,34 +339,143 @@ Examples of ongoing operations include the following:
 
   - In corporate or multiple business unit environment, you most likely deal with a Project Management Office (PMO), a Product Line Management group, or other corporate governance processes
 
+#### Balancing the competing demands
+
+<img src="assets/2025-03-23-23-51-55.png" alt="Balancing the competing demands" width="400"/>
+
+Every project is defined:
+
+- to produce one or more deliverables (_scope_)
+- within a defined time period (_time_)
+- under an approved budget (_cost_) with a specified set of resources.
+
+The deliverables must achieve a certain performance level (_quality_) and meet the approval of the key stakeholders (_expectations_).
+
 ### Roles and Skills of a Project Manager
 
-**Roles:**
+**Planner + Organizer**
 
-- Planner & Organizer
-- Risk Manager
-- Coach & Facilitator
-- Communicator
-- Negotiator
-- Resource Manager
+- Ensures that:
+  - the project is defined properly and completely for success
+  - all stakeholders are engaged
+  - work effort approach is determined
+  - required resources are available when needed
+  - processes are in place to properly execute and control the project
 
-**Key Skills:**
+- Determines:
+  - the complete work effort for the project
+  - the proper sequence of the work activities
+  - when the work will be accomplished
+  - who will do the work
+  - how much the work will cost
 
-- Hard Skills: Financial budgeting, PM methodologies, resource optimization, accurate documentation.
-- Soft Skills: Adaptability, emotional intelligence, problem-solving, clear communication, effective negotiation.
+**Police Officer + Bulldog**
 
-### Common Project Management Mistakes
+- Performs the follow-up to ensure that:
+  - commitments are maintained
+  - issues are resolved
+  - action items are completed
 
-- Misaligned organizational objectives
-- Poor stakeholder communication
-- Unrealistic scheduling
-- Resource mismanagement
-- Neglecting change control
-- Inadequate risk planning
+- Consistently:
+  - measures progress against the plan
+  - develops corrective actions
+  - reviews the quality of both project processes and project deliverables
 
-### Commitment vs Involvement
+**Coach + Facilitator**
 
-Illustrated by the chicken and pig analogy: "The chicken is involved, but the pig is committed."
+- Is the one who:
+  - determines the role each team member plays and the importance of that role to the project’s success
+  - finds ways to motivate each team member
+  - looks for ways to improve the skills of each team member
+  - provides constructive and timely feedback on individual performances
+
+- Ensures that stakeholders and team members who come from different perspectives:
+  - understand each other and work together to accomplish the project goals.
+
+**Insurance Agent + Problem Solver + Umbrella**
+
+- Continuously works to:
+  - identify risks
+  - develop responses to those risk events in advance
+
+- Resolves:
+  - unforeseen technical issues and take any necessary corrective actions
+
+- Works to shield the project team from:
+  - the politics and “noise” surrounding the project, so they can stay focused and productive
+
+**Persuader + Salesperson**
+
+- Gains agreement on:
+
+  - project definition and approach
+  - success criteria and expectations with competing demands
+  - resource decisions
+  - issue resolution action steps
+
+- An extension of the Persuader and Coach roles, focuses on:
+  - “selling” the benefits of the project to the organization
+  - serving as a “change agent”
+  - inspiring team members to meet project goals and overcome project challenges
+
+**Point Person** — Serves as:
+
+- the central point of contact for all oral and written project communications.
+
+**Librarian** — Manages all:
+
+- information
+- communications
+- documentation
+
+**Quartermaster** — Ensures the project has the:
+
+- resources, materials
+- and facilities it needs when it needs it
+
+### The project manager
+
+<a href="https://www.testgorilla.com/blog/project-manager-skills/">12 essential skills for project managers</a>
+
+#### Hard skills
+
+- **Budgeting and financial management**. They need to be sharp with numbers, create accurate budgets, keep an eye on spending, and make sure money and resources are used wisely to keep projects on track and within budget.
+- **Knowledge of project management frameworks**. They should know their way around different project management methods. This helps them pick the best approach for each project and tweak their plans as things change.
+- **Resource management**. They handle everything from their team to equipment and supplies. They need to use these resources wisely – without wasting time or money – to get the best results.
+- **Documentation and reporting**. Keeping detailed records and updating everyone on progress is a big part of their job. It keeps things transparent and helps with audits – enabling them to show that project activities comply with established standards and regulations.
+
+#### Soft skills
+
+- **Adaptability and problem-solving**. They have to think on their feet, come up with solutions quickly, and adjust to new challenges to keep things moving smoothly.
+- **Emotional intelligence**. Understanding and managing emotions helps PM work well with others, build trust, keep the team motivated, and resolve any issues in a positive way.
+- **Attention to detail**. They need to catch even the smallest mistakes to ensure everything is done right and meets all standards. This means checking and double-checking everything carefully.
+- **Decision-making**. They have to weigh their options quickly, understand the risks, and make smart choices.
+- **Time management**. They’re pros at breaking down big projects into manageable tasks, figuring out how long each task will take, and setting realistic deadlines to make sure everything is completed on time.
+- **Effective communication**. Project managers need to keep everyone updated, manage expectations, and smooth over any rough patches with clear, direct talk, and good listening skills.
+- **Negotiation and conflict resolution**. They often find themselves in the middle of disagreements or needing to strike deals. Being good at finding solutions that work for everyone is a must.
+
+#### Common mistakes
+
+- Not ensuring that the project is aligned with **organizational objectives**.
+- Not properly managing **stakeholder expectations, project goals and success criteria and requirements**.
+- Not developing and getting acceptance on a **realistic schedule** and **executing the project plan**.
+- Not clearly deciding and communicating **who is responsible for what**.
+- Not **communicating** consistently and effectively with all key stakeholders.
+- Not **obtaining the right resources with the right skills at the right time**.
+- Not utilizing **change control procedures**.
+- Not proactively **identifying risks, developing contingency plans and pursuing issue resolution**.
+
+### Involvement vs commitment
+
+<img src="assets/2025-03-24-00-41-37.png" alt="Involvement vs commitment" width="400"/>
+
+In a bacon-and-egg breakfast, what’s the difference between the chicken and the pig?
+
+- The chicken is **involved**, but the pig is **committed**.
+
+Is this the reason why this course is called PIGS?
+
+---
 
 ## D3. Product Backlog
 
