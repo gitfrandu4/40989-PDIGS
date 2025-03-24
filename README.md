@@ -40,7 +40,49 @@ Key points from Introduction to Project Management:
 
 ## Estimation
 
-Estimation in project management involves determining resource requirements, including time, cost, and effort needed to complete a project. Effective estimation requires understanding project scope, breaking down work into manageable components, and applying appropriate estimation techniques.
+Key points from Software Project Estimation:
+
+**Basic Concepts and Challenges:**
+
+- Software estimation faces unique challenges compared to other industries due to productivity variations, requirement volatility, and continuous innovation
+- Estimation requires both accuracy (closeness to true value) and precision (consistency of measurements)
+- The "Ninety-Ninety Rule" highlights common optimism in project estimation: first 90% takes 90% of time, last 10% also takes 90%
+
+**Estimation Phases and Components:**
+
+- Size Estimation: Determining project scale and complexity
+- Effort Estimation: Calculating required time and personnel resources
+- Cost Estimation: Budgeting for all necessary resources
+- Productivity assessment is crucial and affected by team experience, work environment, and project complexity
+
+**Metrics in Software Estimation:**
+
+- Size-based metrics: Lines of code, number of modules, documentation pages
+- Function-based metrics: Function points, object points, use case points, story points
+- Pros of function-based metrics include language independence and early application in development
+
+**Estimation Techniques:**
+
+- Expert Judgment: Leverages experience and tacit knowledge
+- Delphi Method: Structured expert consensus through anonymous feedback loops
+- Historical/Analogous: Based on data from similar past projects
+- Parametric/Algorithmic: Uses mathematical models derived from historical data
+- Decomposition: Breaks project into smaller, more easily estimable units
+- Phased Estimation: Provides detailed estimates for immediate phases, broader estimates for future phases
+
+**Agile Estimation Approaches:**
+
+- Planning Poker uses team consensus with Fibonacci sequence for complexity estimation
+- User stories estimated in story points representing relative complexity
+- Prioritization using MoSCoW method (Must, Should, Could, Won't have)
+- Burndown charts track progress against estimations
+
+**Cost Estimation and Pricing:**
+
+- Multiple pricing models: Cost-plus, Opportunity, Going Rate, Monopolistic, Loss Leader
+- Per-person-hour cost calculation: Direct costs + Overhead costs
+- Overhead includes indirect staff, facilities, utilities, and organizational expenses
+- Employee cost analysis must account for gross salary, taxes, and additional contributions
 
 ## Planning
 
