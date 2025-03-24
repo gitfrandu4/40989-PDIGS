@@ -232,7 +232,7 @@ Measure a product according to the amount of a physical aspect or a software art
 - Structured expert consensus with anonymous feedback loops.
 - Facilitator manages iterative estimations until consensus.
 
-<img src="assets/2025-03-24-03-53-54.png" alt="Delphi Method" width="400"/>
+<img src="assets/2025-03-24-05-32-06.png" alt="Delphi Method" width="400"/>
 
 #### Heuristic/Historical/Analogous Estimation
 
