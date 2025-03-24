@@ -1,4 +1,4 @@
-# Estimation 
+# Estimation
 
 - [Estimation](#estimation)
   - [D4. Metrics and Techniques](#d4-metrics-and-techniques)
@@ -36,10 +36,6 @@
       - [Estimating user stories](#estimating-user-stories)
     - [Practical Example: Online Bookshop](#practical-example-online-bookshop)
   - [D5. Cost Estimation](#d5-cost-estimation)
-    - [Introduction](#introduction)
-      - [Importance of Software Industry in the EU](#importance-of-software-industry-in-the-eu)
-      - [Economic Indicators (2018)](#economic-indicators-2018)
-      - [R\&D Investment](#rd-investment)
     - [Cost and Effort Models](#cost-and-effort-models)
       - [Objectives](#objectives)
       - [Costs to Estimate](#costs-to-estimate)
@@ -57,8 +53,6 @@
       - [Gross vs Net Salary Example](#gross-vs-net-salary-example)
       - [Self-employed Costs](#self-employed-costs)
       - [Example of Self-employed Cost Breakdown](#example-of-self-employed-cost-breakdown)
-    - [Graphical Analysis of Employee and Self-employed Costs](#graphical-analysis-of-employee-and-self-employed-costs)
-    - [Study Tips](#study-tips)
     - [References](#references)
 
 ---
@@ -122,9 +116,9 @@
 Are our estimates usually optimistic or pessimistic? How can we improve our estimation accuracy?
 Do we assess the most complex parts in a appropriate way?
 
-| Estimation precision and accuracy |
-| ----- |
-| <img src="assets/2025-03-24-03-41-15.png" width="400"/> | 
+| Estimation precision and accuracy                       |
+| ------------------------------------------------------- |
+| <img src="assets/2025-03-24-03-41-15.png" width="400"/> |
 | <img src="assets/2025-03-24-03-41-19.png" width="400"/> |
 
 ### Estimation Phases
@@ -204,7 +198,7 @@ Measure a product according to the amount of a physical aspect or a software art
 <img src="assets/2025-03-24-03-51-09.png" alt="Function-Based Metrics" width="300"/>
 
 - Measures useful functionality (function points, object points, use case points).
-- Pros: 
+- Pros:
   - Can be applied from early development stages.
   - Independent of the language, tools or methodologies used.
 - Cons: More subjective.
@@ -229,7 +223,7 @@ Measure a product according to the amount of a physical aspect or a software art
 
 - Pros:
   - Experts take into account some "subjective" factors which are not considered in other techniques.
-- Cons: 
+- Cons:
   - Requires experts
   - not reproducible.
 
@@ -266,10 +260,10 @@ Based on similarity, historical data or experience
 - Uses mathematical models from historical data.
 
 - Pros:
-  - The reproducible calculations which can be refined. 
-  - The problem is reduced to the estimation of certain parameters. 
+  - The reproducible calculations which can be refined.
+  - The problem is reduced to the estimation of certain parameters.
   - Based on past experience with statistical significance.
-- Cons: 
+- Cons:
   - Difficulties adapting to unique circumstances.
 
 #### Decomposition Technique
@@ -278,7 +272,7 @@ Based on similarity, historical data or experience
 2. Estimates are more detailed.
 
 - Breaking down project into smaller estimable units.
-- Pros: 
+- Pros:
   - Manages high-risk scenarios well.
   - Quite exact.
 - Cons: Time-consuming.
@@ -299,17 +293,17 @@ Based on similarity, historical data or experience
 
 1. The client has a limited budget.
 2. The client cannot provide a clear and detailed description of what
-they want.
+   they want.
 3. The price of the product is set to the amount the client can pay.
 4. The software requirements are identified.
 5. The requirements are implemented in such a way that they match
-the price.
+   the price.
 6. Some requirements can be left undone.
 
 - Budget-centric; adapts scope to client’s financial limit.
 
 - Pros: Meets budget constraints.
-- Cons: 
+- Cons:
   - Risks omitting key features. Some requirements may be left undone.
 
 ### Scrum and Agile Estimations
@@ -338,7 +332,6 @@ the price.
 
 - Participating in estimation meetings, answering questions and clarifying stories, not estimating stories yourself.
 
-
 #### Planning Poker (Scrum Poker)
 
 - Team consensus method using Fibonacci numbers for estimating complexity.
@@ -352,8 +345,8 @@ the price.
 
 <img src="assets/2025-03-24-04-07-00.png" alt="Estimating User Stories" width="800"/>
 
-* Actual days will differ from ideal days
-* It is common to start with an expected velocity that is somewhere between one-third and one-half the number of developer-days in an iteration.
+- Actual days will differ from ideal days
+- It is common to start with an expected velocity that is somewhere between one-third and one-half the number of developer-days in an iteration.
 
 <img src="assets/2025-03-24-04-10-06.png" alt="Sample Burndown Chart" width="800"/>
 
@@ -366,30 +359,30 @@ the price.
 
 Example:
 
-| Description | Estimation | Priority |
-|-------------|------------|----------|
-| A user can do a basic simple search that searches for a word or phrase in both the author and title fields. | 1 | Must |
-| A user can search for books by entering values in any combination of author, title and ISBN. | 1 | Must |
-| A user can view detailed information on a book. For example, number of pages, publication date and a brief description. | 1 | Must |
-| A user can put books into a "shopping cart" and buy them when they are done shopping. | 1 | Must |
-| A user can remove books from their cart before completing an order. | ½ | Must |
-| To buy a book the user enters their billing address, the shipping address and credit card information. | 2 | Must |
-| A user can view a history of all of their past orders. | 1 | Should |
-| A user can easily re-purchase items when viewing past orders. | ½ | Should |
-| The site always tells a shopper what the last 3 items they viewed are and provides links back to them (this works even between sessions). | 1 | Could |
-| A user can see what books we recommend on a variety of topics. | 3 | Could |
-| A user can choose to have items gift wrapped. | ½ | Should |
-| A user can choose to enclose a gift card and can write their own message for the card. | ½ | Should |
-| A user can rate books from 1 (bad) to 5 (good). The book does not have to be one the user bought from us. | 2 | Should |
-| A user can write a review of a book. They can preview the review before submitting it. The book does not have to be one the user bought from us. | 5 | Could |
-| An administrator needs to approve or reject reviews before they are published. | 2 | Should |
-| A Report Viewer can see reports of daily purchases broken down by book category, traffic, best- and worst-selling books and so on. | 8 | Could |
-| A user must be properly authenticated before viewing reports. | 1 | Must |
-| Orders made on the website have to end up in the same order database as telephone orders. | 0 | Must |
-| An administrator can add new books to the site. | 1 | Must |
-| An administrator can delete a book. | ½ | Must |
-| An administrator can edit the information about an existing books. | 1 | Must |
-| The system must support peak usage of up to 50 concurrent users. | 0 | Must |
+| Description                                                                                                                                      | Estimation | Priority |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | -------- |
+| A user can do a basic simple search that searches for a word or phrase in both the author and title fields.                                      | 1          | Must     |
+| A user can search for books by entering values in any combination of author, title and ISBN.                                                     | 1          | Must     |
+| A user can view detailed information on a book. For example, number of pages, publication date and a brief description.                          | 1          | Must     |
+| A user can put books into a "shopping cart" and buy them when they are done shopping.                                                            | 1          | Must     |
+| A user can remove books from their cart before completing an order.                                                                              | ½          | Must     |
+| To buy a book the user enters their billing address, the shipping address and credit card information.                                           | 2          | Must     |
+| A user can view a history of all of their past orders.                                                                                           | 1          | Should   |
+| A user can easily re-purchase items when viewing past orders.                                                                                    | ½          | Should   |
+| The site always tells a shopper what the last 3 items they viewed are and provides links back to them (this works even between sessions).        | 1          | Could    |
+| A user can see what books we recommend on a variety of topics.                                                                                   | 3          | Could    |
+| A user can choose to have items gift wrapped.                                                                                                    | ½          | Should   |
+| A user can choose to enclose a gift card and can write their own message for the card.                                                           | ½          | Should   |
+| A user can rate books from 1 (bad) to 5 (good). The book does not have to be one the user bought from us.                                        | 2          | Should   |
+| A user can write a review of a book. They can preview the review before submitting it. The book does not have to be one the user bought from us. | 5          | Could    |
+| An administrator needs to approve or reject reviews before they are published.                                                                   | 2          | Should   |
+| A Report Viewer can see reports of daily purchases broken down by book category, traffic, best- and worst-selling books and so on.               | 8          | Could    |
+| A user must be properly authenticated before viewing reports.                                                                                    | 1          | Must     |
+| Orders made on the website have to end up in the same order database as telephone orders.                                                        | 0          | Must     |
+| An administrator can add new books to the site.                                                                                                  | 1          | Must     |
+| An administrator can delete a book.                                                                                                              | ½          | Must     |
+| An administrator can edit the information about an existing books.                                                                               | 1          | Must     |
+| The system must support peak usage of up to 50 concurrent users.                                                                                 | 0          | Must     |
 
 - Demonstrates how user stories are prioritized (Must, Should, Could, Won’t have).
 - Practical scenario highlighting estimation and scope management.
@@ -397,22 +390,6 @@ Example:
 ---
 
 ## D5. Cost Estimation
-
-### Introduction
-
-#### Importance of Software Industry in the EU
-
-- The software industry significantly contributes to the GDP and employment across the EU.
-- Extensive R&D investments showcase the industry's commitment to innovation.
-
-#### Economic Indicators (2018)
-
-- GDP contributions from software-related activities vary significantly by country.
-- Employment and salary data indicate a thriving, lucrative field, highlighting the economic importance of software.
-
-#### R&D Investment
-
-- The substantial investments in research and development underline software's strategic value.
 
 ### Cost and Effort Models
 
@@ -433,16 +410,28 @@ Example:
 #### Top-down Estimation
 
 - **Overview:** Estimating costs based on global functionalities.
+  - The system is evaluated from its global functionalities.
+  - Allows a better estimation of global aspects, such as integration and coordination costs.
+  - Can be applied with fewer details in early stages.
+  - Can underestimate internal costs of certain subsystems.
+  - No suitable to make decisions about individual components.
 - **Pros:** Good for early stages; captures integration and coordination costs.
 - **Cons:** May underestimate detailed subsystem costs; not suited for individual components.
 
 #### Bottom-up Estimation
 
 - **Overview:** Estimating costs from individual components upward.
+  - Each component is estimated and then the global system is assessed.
+  - Allows analyzing individual details of each component.
+  - Usually more precise than top-down estimation.
+  - Can underestimate costs related to global activities.
+  - Usually more expensive and requires a detailed structure.
 - **Pros:** Precise and detailed.
 - **Cons:** Potential underestimation of global integration costs; expensive and detailed.
 
 ### Factors Affecting Earnings in Software Roles
+
+<img src="assets/2025-03-24-04-40-08.png" alt="Factors Affecting Earnings" width="800"/>
 
 - Earnings depend on various factors including experience, company size, business model, and geographical location.
 - Roles range from backend and frontend developers to specialized positions such as software architects and CTOs.
@@ -451,18 +440,26 @@ Example:
 
 #### Cost vs Price
 
-- **Cost:** Actual expense required to complete a project.
-- **Price:** Amount billed to the client.
+- **Cost:** How much money is necessary to carry out the project.
+- **Price:** How much money the customer will have to pay for the project.
 
 #### Types of Pricing Models
 
 - **Cost-plus Pricing:** Total costs plus reasonable profit margin.
 - **Opportunity Pricing:** Pricing based on customer opportunities and market competition.
-  - **Introductory Pricing:** Low pricing to enter saturated markets.
-  - **Skimming Pricing:** High initial pricing before competitors enter the market.
-- **Going Rate Pricing:** Aligning prices with competitors.
-- **Monopolistic/Oligopolistic Pricing:** Unique features or limited suppliers influence pricing.
-- **Transfer Pricing:** Internal cost transfers within organizational departments.
+  - Pricing depends on the opportunity presented by the purchaser.
+  - If the customer has no other choice, the price is high.
+  - If there is much competition, the price is low.
+  - It may even price the project at a loss.
+  - Variants:
+    - Introductory/Penetration pricing: a new entrant to a market already overflowing with existing providers.
+    - Skimming pricing: An early bird in an emerging market charges a higher price before competition enters, then lowers the price.
+- **Going Rate Pricing:**:
+  - Organizations in fields where there is plenty of competition and the price is well known to purchasers.
+  - The organization envisages the price other suppliers are offering.
+- **Monopolistic Pricing:**: The seller plays up some unique feature and prices the product either higher or lower than the going rate.
+- **Oligopolistic Pricing:** Only a limited number of suppliers are present in the market and they collaborate to establish a fixed price.
+- **Transfer Pricing:** Internal cost transfers within organizational departments. Only actual costs are considered.
 - **Loss Leader Pricing:** Selling at a loss to attract customers.
 
 ### Calculating Per-person-hour Cost
@@ -473,9 +470,66 @@ Example:
 - **Overhead Costs (O):** `(I + F + V + M)/H`
 - **Total Cost per Person-hour (T):** `K (Direct Staff Cost per Hour) + O`
 
+| Description                                                                 | Symbol | Formula          |
+| --------------------------------------------------------------------------- | ------ | ---------------- |
+| Yearly cost of direct staff (persons who do not "produce" are not included) | C      | -                |
+| Cost per person-hour (H≈1920)                                               | K      | C/H              |
+| Yearly cost of indirect staff                                               | I      | -                |
+| Yearly cost of fixed costs (e.g. rent)                                      | F      | -                |
+| Yearly cost of variable expenses (e.g. electricity)                         | V      | -                |
+| Other yearly costs not specific to the project                              | M      | -                |
+| Overhead cost per person-hour                                               | O      | (I+F+V+M)/H      |
+| Per-person-hour cost                                                        | T      | K+O              |
+| Overhead percentage                                                         | P      | (I+F+V+M)/C\*100 |
+
+Not specific to the project: rent, utilities, support staff, etc.
+
+| Descripción                                      | Símbolo | Fórmula        |
+| ------------------------------------------------ | ------- | -------------- |
+| Coste anual del personal directo                 | C       | -              |
+| Coste por persona-hora (H≈1920)                  | K       | C/H            |
+| Coste anual del personal indirecto               | I       | -              |
+| Costes fijos anuales (ej. alquiler)              | F       | -              |
+| Gastos variables anuales (ej. electricidad)      | V       | -              |
+| Otros costes anuales no específicos del proyecto | M       | -              |
+| Coste de overhead por persona-hora               | O       | (I+F+V+M)/H    |
+| Coste total por persona-hora                     | T       | K+O            |
+| Porcentaje de overhead                           | P       | (I+F+V+M)/C100 |
+
 #### Overhead Calculation
 
 - Helps in understanding indirect costs relative to direct production staff.
+
+En gestión de proyectos, el término "overhead" se refiere a los gastos generales o costes indirectos que son necesarios para mantener el funcionamiento de la empresa pero que no están directamente relacionados con la producción de un proyecto específico.
+
+Los gastos generales incluyen:
+
+- Salarios del personal de apoyo (administración, RRHH, etc.)
+- Alquiler de oficinas
+- Servicios como electricidad, agua, internet
+- Mantenimiento
+- Seguros
+- Otros gastos que no se pueden asignar directamente al proyecto
+
+<img src="assets/2025-03-24-05-02-15.png" alt="Overhead Calculation" width="800"/>
+
+Ejemplo Práctico. Imagina una empresa de desarrollo de software:
+
+- Coste anual de programadores (personal directo): 500.000€ (C)
+- Horas anuales: 1920 (H)
+- Coste anual de gerentes, RRHH, etc. (personal indirecto): 200.000€ (I)
+- Alquiler anual: 100.000€ (F)
+- Servicios anuales: 50.000€ (V)
+- Otros gastos anuales: 50.000€ (M)
+
+Entonces:
+
+- Coste directo por persona-hora (K) = 500.000€ / 1920h = 260,42€/h
+- Overhead por persona-hora (O) = (200.000€ + 100.000€ + 50.000€ + 50.000€) / 1920h = 208,33€/h
+- Coste total por persona-hora (T) = 260,42€/h + 208,33€/h = 468,75€/h
+- Porcentaje de overhead (P) = 400.000€ / 500.000€ \* 100 = 80%
+
+Esto significa que por cada hora facturada de trabajo directo, necesitas cubrir un 80% adicional de costes indirectos.
 
 ### Additional Costs to Consider
 
@@ -483,13 +537,41 @@ Example:
 - Specialized software and hardware
 - Training for team members
 
+<img src="assets/2025-03-24-05-06-28.png" alt="Other costs specific to the project" width="800"/>
+
 ### Employee Cost Analysis
+
+- What is the gross salary?
+- How much does the company pay in Social Security?
+- How much does the employee receive after deductions?
 
 #### Gross vs Net Salary Example
 
-- **Example:** 1500 € gross monthly salary (indefinite contract)
-  - Company pays an additional 501 € to Social Security.
-  - Employee net salary: 1243 € after deductions (Social Security, IRPF).
+**Case 1**: 1500€ gross monthly salary (indefinite contract)
+
+- The company pays another 501€ in Social Security.
+
+  | Amount   | Percentage | Description                                                                  |
+  | -------- | ---------- | ---------------------------------------------------------------------------- |
+  | 354,00 € | 23,6 %     | Common: pensions                                                             |
+  | 82,50 €  | 5,5 %      | Unemployment                                                                 |
+  | Variable | Variable   | Eventual work accidents or professional illness (% depends on the workplace) |
+  | 52,50 €  | 3,5 %      | FOGASA, severance pay after dismissal of companies in bankruptcy             |
+  | 9,00 €   | 0,6 %      | Training                                                                     |
+
+- Total cost for the company: 2001€
+
+- The employee pays 256,25€ from their salary in taxes.
+
+  | Amount   | Percentage | Description                             |
+  | -------- | ---------- | --------------------------------------- |
+  | 161,00 € | 10,75 %    | IRPF (Income Tax)                       |
+  | 95,25 €  | 6,35 %     | Seguridad Social, divided into:         |
+  | 70,50 €  | 4,7 %      | Contingencias comunes (mainly pensions) |
+  | 23,25 €  | 1,55 %     | Unemployment                            |
+  | 1,50 €   | 0,1 %      | Training                                |
+
+- Net salary: 1243,75€
 
 #### Self-employed Costs
 
@@ -497,23 +579,24 @@ Example:
 - **Tax Contributions (IRPF):** Percentage of net income varies (7%-19%).
 - **VAT Management:** VAT collected vs. VAT paid.
 
+<img src="assets/2025-03-24-05-11-13.png" alt="Self-employed Cost Breakdown" width="800"/>
+
+Other expenses:
+
+- Consultant
+- Office rent
+- Vehicle
+- Communications
+- Employees
+
 #### Example of Self-employed Cost Breakdown
 
 - **Income:** 1590 € (including VAT)
 - **Expenses:** Includes withholding taxes, VAT obligations, and self-employment fees.
 - **Final Profit Calculation:** Income minus all relevant expenses.
 
-### Graphical Analysis of Employee and Self-employed Costs
-
-- Illustrates clearly how different deductions and expenses affect net income for both employed and self-employed scenarios.
-
-### Study Tips
-
-- Clarify understanding by practicing real-world examples.
-- Break down complex costs into smaller, manageable elements.
-- Regularly update cost parameters (tax rates, overhead percentages) based on current regulations and market conditions.
-
 ### References
 
-- "User Stories Applied for Agile Software Development," Mike Cohn, Addison-Wesley, 2009.
-- Murali Chemuturi, *Software Estimation Best Practices, Tools, & Techniques*, J. Ross Publishing, 2009.
+[1] M. Cohn, "User Stories Applied for Agile Software Development," Addison-Wesley, 2009.
+[2] M. Chemuturi, "Software Estimation Best Practices, Tools, & Techniques," J. Ross Publishing, 2009.
+[3] "¿Qué significan las siglas de los altos cargos? CEO, CFO, CIO, CTO y más," IEB School. [Online]. Available: https://www.iebschool.com/blog/ceo-cfo-cio-cto-digital-business/. [Accessed: May 2023].
