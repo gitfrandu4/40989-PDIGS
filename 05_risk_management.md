@@ -5,42 +5,40 @@
     - [What Is a Risk?](#what-is-a-risk)
     - [Risk vs. Crisis Management](#risk-vs-crisis-management)
     - [Risk Transition](#risk-transition)
-    - [📊 Risk Exposure](#-risk-exposure)
-    - [🔥 Showstopper Risks](#-showstopper-risks)
-    - [🎯 Why Risk Management?](#-why-risk-management)
-    - [🧭 Risk Taxonomy](#-risk-taxonomy)
+    - [Risk Exposure](#risk-exposure)
+    - [Showstopper Risks](#showstopper-risks)
+    - [Why Risk Management?](#why-risk-management)
+    - [Risk Taxonomy](#risk-taxonomy)
     - [⚠️ Risk Categories](#️-risk-categories)
       - [1. Technical Risks (Product)](#1-technical-risks-product)
       - [2. Management Risks (Project)](#2-management-risks-project)
       - [3. Organizational Risks (Business)](#3-organizational-risks-business)
       - [4. External Risks](#4-external-risks)
-    - [🧠 Risk Discovery](#-risk-discovery)
+    - [Risk Discovery](#risk-discovery)
       - [Key Strategy: **Postmortem Mining**](#key-strategy-postmortem-mining)
       - [Key Strategy: **6-3-5 Brainwriting**](#key-strategy-6-3-5-brainwriting)
     - [Risks You Can Ignore](#risks-you-can-ignore)
     - [Key Takeaways](#key-takeaways)
-    - [🧠 Deep Dive – D9 References \& Tools](#-deepdive--d9-references--tools)
+    - [Deep Dive – D9 References \& Tools](#deepdive--d9-references--tools)
   - [D10. Uncertainty, mitigation and contingency](#d10-uncertainty-mitigation-and-contingency)
-    - [🌫️ Understanding Uncertainty](#️-understanding-uncertainty)
-    - [📐 Quantifying Uncertainty](#-quantifying-uncertainty)
-      - [🎯 Schedule Uncertainty](#-schedule-uncertainty)
-      - [🧩 Functional Uncertainty](#-functional-uncertainty)
-    - [🛠️ Risk Response Strategies](#️-risk-response-strategies)
-    - [🔁 Mitigation vs Contingency](#-mitigation-vs-contingency)
-    - [💰 Risk Reserve](#-risk-reserve)
-    - [🧭 Transition Indicators](#-transition-indicators)
-    - [💡 Real-World Examples of Risk Mitigation](#-real-world-examples-of-risk-mitigation)
-      - [1. **Estimation \& Scheduling**](#1-estimation--scheduling)
-      - [2. **Requirements Inflation**](#2-requirements-inflation)
-      - [3. **Employee Turnover**](#3-employee-turnover)
-      - [4. **Specification Breakdown**](#4-specification-breakdown)
-      - [5. **Poor Productivity**](#5-poor-productivity)
-      - [6. **Budget Overrun**](#6-budget-overrun)
+    - [Understanding Uncertainty](#understanding-uncertainty)
+    - [Quantifying Uncertainty](#quantifying-uncertainty)
+    - [Risk Response Strategies](#risk-response-strategies)
+    - [Mitigation vs Contingency](#mitigation-vs-contingency)
+    - [Risk Reserve](#risk-reserve)
+    - [Transition Indicators](#transition-indicators)
+    - [Real-World Examples of Risk Mitigation](#real-world-examples-of-risk-mitigation)
+      - [Risk 1. **Estimation \& Scheduling**](#risk-1-estimation--scheduling)
+      - [Risk 2. **Requirements Inflation**](#risk-2-requirements-inflation)
+      - [Risk 3. **Employee Turnover**](#risk-3-employee-turnover)
+      - [Risk 4. **Specification Breakdown**](#risk-4-specification-breakdown)
+      - [Risk 5. **Poor Productivity**](#risk-5-poor-productivity)
+      - [Risk 6. **Budget Overrun**](#risk-6-budget-overrun)
       - [7. **Knowledge Silos**](#7-knowledge-silos)
-    - [🧨 Common Procedural Risks](#-common-procedural-risks)
-    - [✅ Key Takeaways](#-key-takeaways)
-    - [🧠 Deep Dive – D10 References \& Techniques](#-deepdive--d10-references--techniques)
-  - [Bibliography](#bibliography)
+    - [Some other common risks](#some-other-common-risks)
+    - [Key Takeaways](#key-takeaways-1)
+    - [Deep Dive – D10 References \& Techniques](#deepdive--d10-references--techniques)
+  - [References](#references)
 
 ## D9. Exposure, taxonomy and discovery
 
@@ -84,7 +82,7 @@ A **risk transition** is when a potential risk becomes a **real problem**. When 
 
 ---
 
-### 📊 Risk Exposure
+### Risk Exposure
 
 **Probability and Cost**
 
@@ -138,7 +136,7 @@ Using quantitative values:
 
 ---
 
-### 🔥 Showstopper Risks
+### Showstopper Risks
 
 - **High-impact risks** that, if they occur, would force cancellation or complete redesign of a project.
 - They cannot be effectively mitigated and must be managed through **project assumptions** (e.g., "assume this won’t happen").
@@ -150,7 +148,7 @@ Using quantitative values:
 
 ---
 
-### 🎯 Why Risk Management?
+### Why Risk Management?
 
 - Bounds uncertainty
 - Makes risk-taking strategic, not reckless
@@ -160,7 +158,7 @@ Using quantitative values:
 
 ---
 
-### 🧭 Risk Taxonomy
+### Risk Taxonomy
 
 Categorizing risks helps structure discovery and responsibility. PMBOK and industry practice define **four broad risk families**, each with subtypes:
 
@@ -264,7 +262,7 @@ Examples:
 
 ---
 
-### 🧠 Risk Discovery
+### Risk Discovery
 
 Common obstacles that prevent teams from identifying risks:
 
@@ -275,9 +273,9 @@ Common obstacles that prevent teams from identifying risks:
 #### Key Strategy: **Postmortem Mining**
 
 - _Yesterday's problem is today's risk_
-- Run a few postmortems of projects good and bad and look for ways in which they deviated from their initial expectations. 
-- Trace each deviation back to its cause and call that cause a risk. 
-- Use of the output of the postmortem process as input to the risk management process. 
+- Run a few postmortems of projects good and bad and look for ways in which they deviated from their initial expectations.
+- Trace each deviation back to its cause and call that cause a risk.
+- Use of the output of the postmortem process as input to the risk management process.
 
 <img src="assets/2025-05-11-17-49-32.png" alt="Postmortem Mining" width="300">
 
@@ -315,7 +313,7 @@ Still, document these in a _risk backlog_ with clear justification.
 
 ---
 
-### 🧠 Deep Dive – D9 References & Tools
+### Deep Dive – D9 References & Tools
 
 - **PMBOK 7**: Principles 3 & 4 (Stakeholders, Value) frame risk as a value‑protection exercise.
 - **ISO 31000:2018**: Section 6 (Risk Assessment) outlines a generic process adaptable to any SDLC.
@@ -332,9 +330,20 @@ Risk management is incomplete without understanding _uncertainty_—its origins,
 
 ---
 
-### 🌫️ Understanding Uncertainty
+### Understanding Uncertainty
 
 **Uncertainty** is the absence of complete certainty about future events or conditions that could impact a project. Unlike risk, which is quantifiable, uncertainty may not yet be fully understood or measurable.
+
+- **Requeriments**: What exactly does the system have to do?
+- **Match**: How will the system interact with its human operators and other peer systems?
+- **Changing environment**: How will needs and goals change during the period of development and beyond?
+- **Resources**: What key human skills will be available as the project progresses?
+- **Management**: Will management set up productive teams, maintain morale, keep turnover low, and coordinate the complex sets of interrelated tasks?
+- **Supply Chain**: Will other parties to the development perform as hoped?
+- **Politics**: What is the effect of political decisions on the project?
+- **Conflict**: How do members of a diverse stakeholder community resolve their mutually incompatible goals?
+- **Innovation**: How will technologies and approaches affect the eventual outcome?
+- **Scale**: How will upscaling volume and scope beyond past experience impact project performance?
 
 **Common Sources of Uncertainty:**
 
@@ -349,13 +358,24 @@ Risk management is incomplete without understanding _uncertainty_—its origins,
 - **Innovation**: New or experimental technologies
 - **Scaling**: Risks introduced when moving beyond known operational scope
 
----
+### Quantifying Uncertainty
 
-### 📐 Quantifying Uncertainty
+**Challenge**: Most software project managers do a reasonable job of predicting the tasks that _have to be done_ and a poor job of predicting the tasks that _might have to be done_.
 
-**Challenge**: Project managers often forecast tasks that _must_ be done, but not tasks that _might_ be needed.
+**Risk diagram** (release date uncertainty)
 
-#### 🎯 Schedule Uncertainty
+<img src="assets/2025-05-11-18-30-36.png" alt="Risk diagram" width="600">
+
+<img src="assets/2025-05-11-18-31-04.png" alt="Risk diagram" width="600">
+
+- In general, uncertainty windows of 10 to 15 percent of N (nano-percent date) are proper.
+- For the software industry as a whole, window size is in the range of 150 to 200 percent of N.
+- The size of your window of uncertainty is a function of how much noise (variation) there is in your organization’s development processes
+- Your past performance determines window size
+
+<img src="assets/2025-05-11-18-32-14.png" alt="delivery date uncertainty" width="600">
+
+**Schedule Uncertainty**
 
 Release dates often fall within a **probability window**. Organizations with inconsistent processes have wider windows.
 
@@ -365,24 +385,50 @@ Release dates often fall within a **probability window**. Organizations with inc
 - Realistic delivery = between N and the goal
 - Published schedule = outer limit
 
-#### 🧩 Functional Uncertainty
+<img src="assets/2025-05-11-18-33-23.png" alt="functional uncertainty" width="600">
+
+The date is now fixed and the uncertainty is entirely a matter of what will be delivered on that date.
+
+**Functional Uncertainty**
 
 Sometimes, the **delivery date is fixed**, but what gets delivered is flexible—functionality becomes the uncertain factor.
 
 ---
 
-### 🛠️ Risk Response Strategies
+### Risk Response Strategies
 
-| Strategy     | Description                                                                 |
-| ------------ | --------------------------------------------------------------------------- |
-| **Avoid**    | Don’t do the task that entails the risk. You lose potential benefits.       |
-| **Contain**  | Set aside buffer (time, money) to absorb the impact if the risk happens.    |
-| **Mitigate** | Take actions beforehand to reduce either the probability or cost of a risk. |
-| **Evade**    | Let the risk expire or resolve itself without incurring cost.               |
+| Strategy     | Description                                                                   |
+| ------------ | ----------------------------------------------------------------------------- |
+| **Avoid**    | _Don’t do the task_ that entails the risk. You lose potential benefits.       |
+| **Contain**  | _Set aside buffer_ (time, money) to absorb the impact if the risk happens.    |
+| **Mitigate** | _Take actions beforehand_ to reduce either the probability or cost of a risk. |
+| **Evade**    | _Let the risk expire_ or resolve itself without incurring cost.               |
+
+- **Avoid**: You avoid a risk when **you don’t do the project or the part of the project that entails the risk**. The natural consequence of avoiding a risk is that you forgo the benefit that going into the risky area offered.
+
+- **Contain**: You contain a risk when **you set aside sufficient time and money** to pay for it, should it materialize.
+
+  - In practice, it doesn’t make much sense to contain a single risk; instead, you contain your entire set of risks. Some of them will materialize and others won’t.
+  - A containment strategy sets aside enough resources, on average, to offset the risks that are likely to materialize.
+
+- **Mitigate**: You mitigate a risk when **you take steps before its materialization** to reduce eventual containment costs or its probability.
+
+  - This includes the steps required in advance so that the containment strategy you’ve chosen will be implementable at transition time.
+
+- **Evade**: You evade a risk when **you do none of the other options** and the risk just doesn’t materialize. Fortunately, some risks expire during the course of a project.
+
+The first three of these cost money:
+
+- Avoidance costs you lost benefit.
+- Containment costs you the portion of risk reserves that gets used up.
+- Mitigation costs you whatever you spend to reduce containment cost or probability.
+- Only risk evasion appears to be free.
 
 ---
 
-### 🔁 Mitigation vs Contingency
+### Mitigation vs Contingency
+
+<img src="assets/2025-05-11-19-34-20.png" alt="Mitigation vs Contingency" width="600">
 
 | Aspect                 | **Mitigation Plan** (First‑line Defense)            | **Contingency Plan** (Fallback)                         |
 | ---------------------- | --------------------------------------------------- | ------------------------------------------------------- |
@@ -401,9 +447,12 @@ Sometimes, the **delivery date is fixed**, but what gets delivered is flexible�
 
 💻 Dev‑Note: piensa en **tests automatizados** (mitigación) vs. **feature‑flag para rollback rápido** (contingencia).
 
----
+### Risk Reserve
 
-### 💰 Risk Reserve
+- A risk reserve is, by definition, time and money that you may not need.
+- If you calculate exposure for all your risks and set aside a risk reserve equal to the total exposure, that risk reserve will, on average, be sufficient to pay for the risks that do materialize.
+- You may end up short on some projects and have some reserve left on others, but over the long run, your risk reserve will be about right.
+- A more defensive strategy would be to allocate something more than aggregate exposure, while a less defensive strategy would be to allocate less.
 
 A **risk reserve** is a buffer of time and money **set aside** to contain materialized risks.
 
@@ -427,9 +476,18 @@ A **risk reserve** is a buffer of time and money **set aside** to contain materi
 - **Schedule Reserve** ≈ buffer in days/weeks; **Budget Reserve** ≈ monetary buffer.
 - Agile teams often track reserve as **“Velocity × Buffer %”** inside the release burndown.
 
+<img src="assets/2025-05-11-19-39-24.png" alt="Risk Reserve" width="600">
+
+**Without and with mitigation**
+
+<img src="assets/2025-05-11-19-39-48.png" alt="Risk Reserve" width="600">
+
+- Without mitigation, the schedule reserve is large; The budget reserve can be enormous to pay for the additional cost.
+- With mitigation, both reserves are considerably reduced. However, the budget has been increased by the cost of mitigation. The schedule has also been stretched out somewhat to the right, since mitigation has time cost as well as an economic cost. The result is that the optimistic date on the graph is somewhat less optimistic than it was in the no-mitigation plan.
+
 ---
 
-### 🧭 Transition Indicators
+### Transition Indicators
 
 For each managed risk:
 
@@ -439,57 +497,82 @@ For each managed risk:
 
 ---
 
-### 💡 Real-World Examples of Risk Mitigation
+### Real-World Examples of Risk Mitigation
 
-#### 1. **Estimation & Scheduling**
+#### Risk 1. **Estimation & Scheduling**
 
-- Involve team in estimation
-- Work in short iterations to improve velocity transparency
-- Monitor and apply lessons from current projects
+**Explanation**: Software development, given the intangible nature and uniqueness of software, is inherently difficult to estimate and schedule.
 
-#### 2. **Requirements Inflation**
+- Get the team more involved in planning and estimating.
+- Get early feedback and address slips directly with stakeholders.
+- By working in short increments the true velocity of the team quickly emerges and is visible to all stakeholders who are now more closely involved in the project.
+- Always monitor existing projects so that you apply lessons learnt in the future.
 
-- Involve customers early
-- Use iterative reprioritization instead of blocking changes
+#### Risk 2. **Requirements Inflation**
 
-#### 3. **Employee Turnover**
+**Explanation**: As the project progresses more and more features that were not identified at the beginning of the project emerge that threaten estimates and timelines.
 
-- Apply pair programming, shared code ownership, team rituals
-- Create a culture that retains talent
+- Constant involvement of customers and developers.
+- Plan discussions about features and estimates at every iteration boundary.
+- Rather than utilizing change-suppression mechanisms, prioritization sessions are scheduled that allow worthwhile changes to proceed and initially envisioned features to be superseded if the business gives their authorization.
+- Try to think big early on in the project, and anticipate the worst-case or heaviest-use scenario.
 
-#### 4. **Specification Breakdown**
+#### Risk 3. **Employee Turnover**
 
-- Use a product manager or proxy
-- Run JAD (Joint Application Design) sessions to enhance specifications
+**Explanation**: Key personnel leave the project taking critical information with them that significantly delays or derails the project.
 
-#### 5. **Poor Productivity**
+- Increased collaboration and information sharing on the team.
+- Practice information sharing techniques such as pair programming, common code ownership, and frequent reporting at daily stand-ups specifically to reduce the "bus-factor".
+- Multiple team members share key information and the risk due to employee turnover is small.
+- When working in an engaging, rewarding, empowered, collaborative environment such as agile projects, people are far less likely to want to move elsewhere.
 
-- Time-box with short sprints
-- Stick to realistic schedules
-- Use small, focused teams
+#### Risk 4. **Specification Breakdown**
 
-#### 6. **Budget Overrun**
+**Explanation**: When coding and integration begin it becomes apparent that the specification is incomplete or contains conflicting requirements.
 
-- Use rolling-wave planning to avoid front-loading decisions
-- Expect and manage pivots during product evolution
+- Use a dedicated Product Manager to make critical trade off decisions.
+- Make use of an ambassador user, subject matter expert, or customer proxy to play the product manager role. Agile projects have some form of product owner role to ensure decisions are made in a timely fashion.
+- Joint Application Development (JAD) can be helpful to collect requirements, enhance user participation and improve the quality of specifications.
+
+#### Risk 5. **Poor Productivity**
+
+**Explanation**: Given long project timelines, the sense of urgency to work in earnest is often absent resulting to time lost in early project stages that can never be regained.
+
+- Short iterations, right people on team, coaching and team development.
+- Parkinson's Law says that: "Work expands to fill the time available" and Student Syndrome: "Given a deadline, people tend to wait until the deadline is nearly here before starting work." By having short iterations, work is time-boxed into a manageable iteration (typically 1-4 weeks) and there is always a sense of urgency.
+- Set a realistic schedule, and stick to it.
+
+#### Risk 6. **Budget Overrun**
+
+**Explanation**: Projects exceed their budget. Goals may change, assumptions fail, and changes may be necessary to make the Project viable. Very frequent, sometimes related to other risks.
+
+- In product development, you necessarily make assumptions that cannot be proven or disproven until more information becomes available. As development progresses, objectives or goals may shift, or the product may need to pivot to be viable.
+- Rolling wave planning is designed to account for this. Teams make product decisions when they are in the best position to make them, rather than presenting very detailed plans at the beginning of the project. This mitigates budget risk because you do not have to waste time and resources for re-planning.
 
 #### 7. **Knowledge Silos**
 
-- Use squad-based development
+**Explanation**: Knowledge silos are a risk because they prevent the team from being able to learn from each other and from past projects. 
+
+**Explanation**: Loss or absence of some members of the team. Even if it is for a short period, can result in delays or errors. Additional resources and cost for training may be needed.
+
 - Encourage documentation, shared ownership, and mentoring
+- Squad-based development: Squads are 10-12 person, colocated teams that plan together, share knowledge, complete code reviews and work together on a given project from beginning to end. They have a known maximum capacity and open flow of knowledge, which helps address both personnel and knowledge risk, as it eliminates knowledge silos and gives team members the ability to seamlessly take on tasks if somebody is absent or leaves the team.
 
 ---
 
-### 🧨 Common Procedural Risks
+### Some other common risks
 
-- **Design shortcuts**: Skipping detailed design wastes time later
+- **Design shortcuts**: In order to start doing the next ‘real’ tasks, developers tend to rush the design-process. This is a waste of programming hours, as designing is the most critical part of software development, and having to revisit it later in the process risks dragging everything back a few steps to ensure things like UX remain at a high level.
 - **Gold plating**: Adding unneeded features burns budget
 - **Reduced functionality**: Trimming scope to meet deadlines can hurt quality
 - **Operational misalignment**: Poor process clarity or conflicting roles slow execution
+- **Gold plating**: Developers sometimes like to show off their skills by adding unnecessary features. Again, this is a waste of programming hours, which could be better spent on sticking to the timeline for development and getting the software completed.
+- **Compromising on functionalities**: Sometimes software development firms reduce the functionality of the software to compensate for overruns pertaining to high budgets and scheduling. There is always a conflict between achieving maximum functionality of the software and peak performance. This is a particularly dangerous moment in terms of app security.
+- **Procedural risks**: Day-to-day operational activities might hamper the software development plan and procedure, due to improper process implementation, conflicting priorities, or a lack of clarity in responsibilities.
 
 ---
 
-### ✅ Key Takeaways
+### Key Takeaways
 
 - Uncertainty is inevitable—don’t ignore it, plan for it
 - Use both mitigation (prevention) and contingency (response)
@@ -499,7 +582,7 @@ For each managed risk:
 
 ---
 
-### 🧠 Deep Dive – D10 References & Techniques
+### Deep Dive – D10 References & Techniques
 
 - **Schedule Risk Analysis** (PERT β‑distribution, Monte Carlo) to model release‑date windows.
 - **Continuous Delivery** reduces containment cost by making rollback cheap and fast.
@@ -508,8 +591,20 @@ For each managed risk:
 
 ---
 
-## Bibliography
+## References
 
 - **Waltzing with Bears: Managing Risk on Software Projects**  
-  *by Tom Demarco, Timothy Lister*  
+  _by Tom Demarco, Timothy Lister_  
   Addison Wesley Professional, 2013
+
+- **Know the Difference Between Mitigation Plan and Contingency Plan**  
+  _by Izenbridge_  
+  [https://www.izenbridge.com/blog/know-the-differencebetween-mitigation-plan-and-contingency-plan/](https://www.izenbridge.com/blog/know-the-differencebetween-mitigation-plan-and-contingency-plan/)
+
+- **Top 10 Software Development Risks**  
+  _by IT Pro Portal_  
+  [https://www.itproportal.com/features/top-10-softwaredevelopment-risks/](https://www.itproportal.com/features/top-10-softwaredevelopment-risks/)
+
+- **Top Five Software Project Risks**  
+  _by Project Smart_  
+  [https://www.projectsmart.co.uk/risk-management/topfive-software-project-risks.php](https://www.projectsmart.co.uk/risk-management/topfive-software-project-risks.php)
