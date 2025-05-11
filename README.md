@@ -1,14 +1,36 @@
-# Proyectos de Ingeniería y Gestión de Software
+# 📘 Proyectos de Ingeniería y Gestión de Software
 
-- [Proyectos de Ingeniería y Gestión de Software](#proyectos-de-ingeniería-y-gestión-de-software)
-  - [Introduction](#introduction)
-  - [Estimation](#estimation)
-  - [Planning](#planning)
-  - [Risk management](#risk-management)
-  - [Software quality](#software-quality)
-  - [Standards](#standards)
+¡Bienvenido! 👋 Este es tu **hub de recursos** para la asignatura **Proyectos de Ingeniería y Gestión de Software (40989 - GII)**. Aquí encontrarás resúmenes, ejemplos, plantillas y consejos prácticos para dominar la gestión de proyectos de software, desde la estimación hasta la calidad y los estándares profesionales.
 
-## Introduction
+---
+
+## 📚 Contenido Rápido
+
+- [📘 Proyectos de Ingeniería y Gestión de Software](#-proyectos-de-ingeniería-y-gestión-de-software)
+  - [📚 Contenido Rápido](#-contenido-rápido)
+  - [🚀 ¿Cómo usar este repositorio?](#-cómo-usar-este-repositorio)
+  - [📖 Introduction](#-introduction)
+  - [🔢 Estimation](#-estimation)
+  - [🗂️ Planning](#️-planning)
+  - [⚠️ Risk management](#️-risk-management)
+  - [✅ Software quality](#-software-quality)
+  - [📏 Standards](#-standards)
+  - [✨ Créditos](#-créditos)
+
+---
+
+## 🚀 ¿Cómo usar este repositorio?
+
+1. **Explora los resúmenes**: Cada sección condensa lo esencial de la materia, con ejemplos y tablas para repasar rápido antes de exámenes o prácticas.
+2. **Busca plantillas y ejemplos** en las carpetas temáticas para tus entregas o proyectos de equipo.
+3. **Consulta los cuadros comparativos** para elegir la mejor metodología según tu caso.
+4. **¿Dudas?** Usa los callouts y tips destacados para aclarar conceptos clave.
+
+> 💡 **Pro Tip:** ¡No memorices! Relaciona los conceptos con casos reales o tus propias experiencias para interiorizarlos mejor.
+
+---
+
+## 📖 Introduction
 
 Key points from Introduction to Project Management:
 
@@ -38,7 +60,9 @@ Key points from Introduction to Project Management:
 - Spikes (research tasks) help resolve uncertainty in requirements or implementation approaches
 - User stories evolve through discovery, planning, execution, and acceptance testing
 
-## Estimation
+---
+
+## 🔢 Estimation
 
 Effective software estimation is essential for project success, yet uniquely challenging due to factors like productivity variability, requirement volatility, and rapid innovation. Below is a summary of key concepts and practices:
 
@@ -90,11 +114,15 @@ Effective software estimation is essential for project success, yet uniquely cha
 
 - Estimation connects user stories to release planning, timeline projections, and cost calculation (see online bookshop example in the full document).
 
+> 📌 **Did you know?** ¡La Ley de Brooks dice que añadir más programadores a un proyecto retrasado lo retrasa aún más! Planifica bien tu equipo desde el inicio.
+
 **Key Takeaway:**
 
 - Use a combination of metrics and techniques, adapt to project context, and continuously refine estimates based on feedback and historical data.
 
-## Planning
+---
+
+## 🗂️ Planning
 
 Effective project planning defines the path from idea to delivery, ensuring scope clarity, realistic schedules, and resource alignment. Key concepts and practices include:
 
@@ -145,21 +173,45 @@ Effective project planning defines the path from idea to delivery, ensuring scop
 - Define responsibilities, outcomes, milestones, and validate effort.
 - Use Gantt charts for timelines and PERT for complex dependencies and critical path analysis.
 
+> 🏁 **Consejo:** ¡No subestimes la importancia de los hitos! Celebrar pequeños logros motiva al equipo y ayuda a detectar desvíos a tiempo.
+
 **Key Takeaway:**
 
 - Combine structured breakdown, iterative planning, and adaptive scheduling to deliver projects on time, within scope, and with high quality. Continuously monitor, adjust, and communicate to keep the project on track.
 
-## Risk management
+---
+
+## ⚠️ Risk management
 
 Risk management focuses on identifying potential risks, analyzing their impact, and developing mitigation strategies. This ongoing process includes risk identification, assessment, response planning, and continuous monitoring throughout the project lifecycle.
 
-## Software quality
+> ⚡ **Tip:** ¡No ignores los riesgos pequeños! A menudo, los problemas más grandes empiezan con detalles que nadie vigiló.
+
+---
+
+## ✅ Software quality
 
 Software quality management ensures that project deliverables meet defined standards and user requirements. It involves quality planning, quality assurance, and quality control processes that maintain the integrity of software products.
 
-## Standards
+> 🧪 **Pro Tip:** Automatiza pruebas siempre que puedas. La calidad no es negociable, ¡pero sí escalable!
+
+---
+
+## 📏 Standards
 
 Modern project management relies on established standards and methodologies to ensure consistency, quality, and successful outcomes. Below is a summary of key standards and when to use each:
+
+Comparativa de marcos de trabajo y cuándo aplicarlos:
+
+| Metodología   | Enfoque                    | Cuándo usarla                             |
+| ------------- | -------------------------- | ----------------------------------------- |
+| **Métrica 3** | Procesos públicos          | IT sector público español                 |
+| **PRINCE2**   | Control y gobernanza       | Proyectos regulados o complejos           |
+| **Scrum**     | Iterativo e incremental    | Productos con cambios rápidos             |
+| **XP**        | Prácticas de ingeniería    | Alta calidad técnica, entregas frecuentes |
+| **Lean**      | Eliminación de desperdicio | Mejora continua, eficiencia operativa     |
+| **Kanban**    | Flujo visual y WIP         | Soporte, DevOps, mantenimiento            |
+| **PMBOK**     | Buenas prácticas           | Portafolios, PMOs, proyectos grandes      |
 
 **1. Métrica 3**
 
@@ -212,3 +264,15 @@ Modern project management relies on established standards and methodologies to e
 - Lean/Kanban: Continuous delivery, maintenance, or process improvement.
 - PMBOK: Comprehensive oversight for large or complex initiatives.
 - Tailor your approach—combine elements as needed for your project's context.
+
+---
+
+## ✨ Créditos
+
+- Universidad de Las Palmas de Gran Canaria – Grado en Ingeniería Informática
+- Asignatura: Proyectos de Ingeniería y Gestión de Software
+- Repositorio mantenido por: [Francisco J.](https://github.com/gitfrandu4) 💻
+
+---
+
+¿Te ha servido? ¡Mejora continua activada! 💪 Si tienes sugerencias o quieres aportar, ¡bienvenido!
