@@ -11,7 +11,23 @@
   - [🚀 ¿Cómo usar este repositorio?](#-cómo-usar-este-repositorio)
   - [📖 Introduction](#-introduction)
   - [🔢 Estimation](#-estimation)
+    - [⚡ Why is software estimation hard?](#-why-is-software-estimation-hard)
+    - [🧩 Estimation phases](#-estimation-phases)
+    - [📏 Metrics in estimation](#-metrics-in-estimation)
+    - [🛠️ Estimation techniques](#️-estimation-techniques)
+    - [🚀 Agile estimation approaches](#-agile-estimation-approaches)
+    - [💸 Cost estimation \& pricing models](#-cost-estimation--pricing-models)
+    - [🧠 Practical example: Online bookshop](#-practical-example-online-bookshop)
+    - [✅ Key takeaways](#-key-takeaways)
   - [🗂️ Planning](#️-planning)
+    - [🧩 Work Breakdown Structure (WBS)](#-work-breakdown-structure-wbs)
+    - [🔄 Project lifecycle models](#-project-lifecycle-models)
+    - [🚀 Release \& iteration planning](#-release--iteration-planning)
+    - [🛠️ Iteration planning \& task breakdown](#️-iteration-planning--task-breakdown)
+    - [📈 Monitoring \& velocity tracking](#-monitoring--velocity-tracking)
+    - [⏳ Task scheduling approaches](#-task-scheduling-approaches)
+    - [🧠 Key principles for time management](#-key-principles-for-time-management)
+    - [✅ Key takeaways](#-key-takeaways-1)
   - [⚠️ Risk management](#️-risk-management)
     - [🧩 What is a risk?](#-what-is-a-risk)
     - [🗂️ Risk taxonomy](#️-risk-taxonomy)
@@ -28,7 +44,7 @@
     - [🧪 Testing taxonomy](#-testing-taxonomy)
     - [📊 Key metrics \& tools](#-key-metrics--tools)
     - [🛡️ Vulnerabilities \& technical debt](#️-vulnerabilities--technical-debt)
-    - [✅ Key takeaways](#-key-takeaways)
+    - [✅ Key takeaways](#-key-takeaways-2)
   - [📏 Standards](#-standards)
     - [🏗️ What are project management standards?](#️-what-are-project-management-standards)
     - [🔍 Methodologies at a glance](#-methodologies-at-a-glance)
@@ -89,120 +105,183 @@ Key points from Introduction to Project Management:
 
 ## 🔢 Estimation
 
-Effective software estimation is essential for project success, yet uniquely challenging due to factors like productivity variability, requirement volatility, and rapid innovation. Below is a summary of key concepts and practices:
+Accurate estimation is essential for project success—but it's uniquely challenging in software due to invisible progress, changing requirements, and wide productivity differences. Here's what you need to know:
 
-**1. Estimation Challenges:**
+---
 
-- Software estimation is less predictable than in other industries due to invisible progress, changing requirements, and wide productivity differences.
-- Aim for accuracy (closeness to true value) over false precision; use ranges and review estimation history to improve.
+### ⚡ Why is software estimation hard?
 
-**2. Estimation Phases:**
+- Productivity varies 10x+ between developers and teams
+- Requirements change frequently
+- Progress is invisible (unlike construction)
+- New tech and tools appear constantly
+- Aim for accuracy (close to true value) over false precision—use ranges and review estimation history to improve
 
-- **Size Estimation:** How much and how complex? (e.g., user stories, function points, lines of code)
-- **Effort Estimation:** How long and how many people? (person-hours, team composition)
-- **Cost Estimation:** What is the budget? (labor, infrastructure, operational, contingency)
+> 📌 **Did you know?** Brooks's Law: "Adding more programmers to a late project makes it later!"
+
+---
+
+### 🧩 Estimation phases
+
+| Phase      | Key Question               | Focus                         |
+| ---------- | -------------------------- | ----------------------------- |
+| **Size**   | How much? How complex?     | Scope, requirements, features |
+| **Effort** | How long? How many people? | Person-hours, team size       |
+| **Cost**   | What's the budget?         | Labor, infra, contingency     |
+
 - These are interdependent—changing one affects the others.
 
-**3. Metrics in Estimation:**
+---
 
-- **Product Metrics:** Size (LOC, functions), complexity, quality
-- **Process Metrics:** Time, effort, efficiency, stability
-- **Resource Metrics:** Team size, productivity, cost
-- **Size-based metrics:** Tangible counts (LOC, modules)
-- **Function-based metrics:** Function points, object points, use case points, story points (focus on delivered value)
+### 📏 Metrics in estimation
 
-**4. Estimation Techniques:**
+| Metric Type  | What it measures                    | Examples                    |
+| ------------ | ----------------------------------- | --------------------------- |
+| **Product**  | Size, complexity, quality           | LOC, function points, tests |
+| **Process**  | Time, effort, efficiency, stability | Velocity, lead time         |
+| **Resource** | Team size, productivity, cost       | Story points/person, cost   |
 
-- **Expert Judgment:** Leverages experience; quick but subjective
-- **Delphi Method:** Structured, anonymous expert consensus
-- **Historical/Analogous:** Based on similar past projects
-- **Parametric/Algorithmic:** Uses mathematical models (e.g., COCOMO)
-- **Decomposition:** Breaks project into smaller, estimable units
-- **Phased Estimation:** Detailed for near-term, rough for future phases
-- **Pricing to Win:** Scope adjusted to fit a fixed budget
+- **Size-based:** Tangible counts (LOC, modules)
+- **Function-based:** Function points, object points, use case points, story points (focus on delivered value)
 
-**5. Agile Estimation Approaches:**
+---
 
-- **Story Points:** Relative complexity, estimated by team consensus
+### 🛠️ Estimation techniques
+
+| Technique                  | When to use                                  |
+| -------------------------- | -------------------------------------------- |
+| **Expert judgment**        | Quick, subjective, leverages experience      |
+| **Delphi method**          | Structured, anonymous expert consensus       |
+| **Historical/Analogous**   | Based on similar past projects               |
+| **Parametric/Algorithmic** | Uses mathematical models (e.g., COCOMO)      |
+| **Decomposition**          | Breaks project into smaller, estimable units |
+| **Phased estimation**      | Detailed for near-term, rough for future     |
+| **Pricing to win**         | Scope adjusted to fit a fixed budget         |
+
+---
+
+### 🚀 Agile estimation approaches
+
+- **Story points:** Relative complexity, estimated by team consensus
 - **Planning Poker:** Consensus-based estimation using cards (often Fibonacci sequence)
-- **MoSCoW Prioritization:** Must, Should, Could, Won't have
-- **Velocity & Burndown Charts:** Track progress and forecast delivery
+- **MoSCoW prioritization:** Must, Should, Could, Won't have
+- **Velocity & burndown charts:** Track progress and forecast delivery
 
-**6. Cost Estimation and Pricing:**
+> 💡 **Pro Tip:** Use reference stories and keep estimation light—focus on predictability, not perfection.
 
-- **Cost Models:** Top-down (broad, early), bottom-up (detailed, later), or hybrid
-- **Pricing Models:** Cost-plus, opportunity, going rate, monopolistic, loss leader, etc.
+---
+
+### 💸 Cost estimation & pricing models
+
+- **Cost models:** Top-down (broad, early), bottom-up (detailed, later), or hybrid
+- **Pricing models:** Cost-plus, opportunity, going rate, monopolistic, loss leader, etc.
 - **Per-person-hour cost:** Includes direct labor and overhead (indirect staff, facilities, utilities)
 - **Employee cost analysis:** Considers gross salary, taxes, and additional contributions
 
-**7. Practical Example:**
+---
 
-- Estimation connects user stories to release planning, timeline projections, and cost calculation (see online bookshop example in the full document).
+### 🧠 Practical example: Online bookshop
 
-> 📌 **Did you know?** ¡La Ley de Brooks dice que añadir más programadores a un proyecto retrasado lo retrasa aún más! Planifica bien tu equipo desde el inicio.
+- Estimation connects user stories to release planning, timeline projections, and cost calculation
+- Use MoSCoW to prioritize, story points to estimate, and velocity to plan sprints
+- Example: MVP = 9 points, Release 2 = 7.5, Release 3 = 17; with a velocity of 10 points/sprint, the project takes ~4 sprints
 
-**Key Takeaway:**
+---
 
-- Use a combination of metrics and techniques, adapt to project context, and continuously refine estimates based on feedback and historical data.
+### ✅ Key takeaways
+
+- Use a combination of metrics and techniques, adapt to project context, and continuously refine estimates based on feedback and historical data
+- Focus on value, not just effort—prioritize what matters most
 
 ---
 
 ## 🗂️ Planning
 
-Effective project planning defines the path from idea to delivery, ensuring scope clarity, realistic schedules, and resource alignment. Key concepts and practices include:
+Project planning defines the path from idea to delivery, ensuring clarity, realistic schedules, and resource alignment. Here's what you need to know:
 
-**1. Work Breakdown Structure (WBS):**
+---
+
+### 🧩 Work Breakdown Structure (WBS)
 
 - Breaks the project into phases, standard tasks, and specific subtasks for clarity and estimation.
 - Visual tools like workflow diagrams help clarify responsibilities and dependencies.
 
-**2. Project Lifecycle Models:**
+---
 
-- **Traditional (Waterfall):** Sequential phases; best for stable, well-defined requirements.
+### 🔄 Project lifecycle models
+
+| Model               | When to use                                           |
+| ------------------- | ----------------------------------------------------- |
+| **Waterfall**       | Stable, well-defined requirements                     |
+| **Incremental**     | Value delivered in cycles, evolving requirements      |
+| **Prototyping**     | Early feedback, unclear requirements                  |
+| **Component-Based** | Reuse of existing modules                             |
+| **RAD/Spiral/RUP**  | Rapid delivery, risk management, stakeholder feedback |
+| **Agile**           | Collaboration, adaptability, frequent delivery        |
+
+- **Waterfall:** Sequential phases; best for stable, well-defined requirements.
 - **Incremental/Iterative:** Delivers value in cycles, adding features over time.
 - **Prototyping:** Early feedback through quick prototypes and refinements.
 - **Component-Based:** Emphasizes reuse of existing modules.
 - **RAD/Spiral/RUP:** Focus on rapid delivery, risk management, and stakeholder feedback.
 - **Agile:** Emphasizes collaboration, adaptability, and frequent delivery.
 
-**3. Release and Iteration Planning:**
+---
+
+### 🚀 Release & iteration planning
 
 - Organize work into releases and sprints/iterations.
 - Prioritize user stories using value, risk, and MoSCoW (Must, Should, Could, Won't have).
 - Estimate team velocity to allocate work per iteration.
 - Split large stories and validate with acceptance tests.
 
-**4. Iteration Planning and Task Breakdown:**
+> 🏁 **Tip:** Don't underestimate milestones! Celebrating small wins motivates the team and helps spot issues early.
+
+---
+
+### 🛠️ Iteration planning & task breakdown
 
 - Decompose stories into actionable tasks for each iteration.
 - Assign responsibilities and estimate effort for each task.
 - Encourage team ownership and realistic commitments.
 
-**5. Monitoring and Velocity Tracking:**
+---
+
+### 📈 Monitoring & velocity tracking
 
 - Use burndown charts and velocity metrics to track progress.
 - Adjust plans based on actual performance and scope changes.
 - Monitor story point evolution to manage scope and predict completion.
 
-**6. Task Scheduling Approaches:**
+---
 
-- **Fixed Units:** Team size is fixed; duration varies with workload.
-- **Fixed Work:** Total effort is fixed; team size or duration can change.
-- **Fixed Duration:** Deadline is fixed; adjust team size or scope as needed.
+### ⏳ Task scheduling approaches
+
+| Approach           | What's fixed? | How it adapts                 |
+| ------------------ | ------------- | ----------------------------- |
+| **Fixed Units**    | Team size     | Duration varies with workload |
+| **Fixed Work**     | Total effort  | Team size/duration can change |
+| **Fixed Duration** | Deadline      | Team size or scope adapts     |
+
 - Use formulas and visual tools (Gantt, PERT) to plan and communicate schedules.
+- Gantt charts: Visual timelines for tasks and dependencies.
+- PERT charts: Handle complex dependencies, estimate earliest/latest times, and identify critical paths.
 
-**7. Time Management and Scheduling:**
+---
 
-- Break work into manageable tasks (compartmentalization).
-- Identify dependencies and allocate time/resources accordingly.
-- Define responsibilities, outcomes, milestones, and validate effort.
-- Use Gantt charts for timelines and PERT for complex dependencies and critical path analysis.
+### 🧠 Key principles for time management
 
-> 🏁 **Consejo:** ¡No subestimes la importancia de los hitos! Celebrar pequeños logros motiva al equipo y ayuda a detectar desvíos a tiempo.
+- Break work into manageable tasks (compartmentalization)
+- Identify dependencies and allocate time/resources accordingly
+- Define responsibilities, outcomes, milestones, and validate effort
+- Use visual tools to communicate and adjust plans
 
-**Key Takeaway:**
+---
 
-- Combine structured breakdown, iterative planning, and adaptive scheduling to deliver projects on time, within scope, and with high quality. Continuously monitor, adjust, and communicate to keep the project on track.
+### ✅ Key takeaways
+
+- Combine structured breakdown, iterative planning, and adaptive scheduling to deliver projects on time, within scope, and with high quality.
+- Continuously monitor, adjust, and communicate to keep the project on track.
 
 ---
 
