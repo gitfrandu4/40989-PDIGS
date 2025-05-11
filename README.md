@@ -20,6 +20,15 @@
     - [💡 Practical examples of risks and mitigation](#-practical-examples-of-risks-and-mitigation)
     - [🏆 Keys to surviving risk](#-keys-to-surviving-risk)
   - [✅ Software quality](#-software-quality)
+    - [🚀 Why care about software quality?](#-why-care-about-software-quality)
+    - [📏 Key standards \& structural factors](#-key-standards--structural-factors)
+    - [🏆 Software quality factors (ISO/IEC 25010)](#-software-quality-factors-isoiec-25010)
+    - [🧠 Shneiderman's 8 Golden Rules for UI Design](#-shneidermans-8-golden-rules-for-ui-design)
+    - [🧪 Static vs Dynamic Quality Assessment](#-static-vs-dynamic-quality-assessment)
+    - [🧪 Testing taxonomy](#-testing-taxonomy)
+    - [📊 Key metrics \& tools](#-key-metrics--tools)
+    - [🛡️ Vulnerabilities \& technical debt](#️-vulnerabilities--technical-debt)
+    - [✅ Key takeaways](#-key-takeaways)
   - [📏 Standards](#-standards)
   - [✨ Créditos](#-créditos)
 
@@ -272,9 +281,118 @@ Example: If there's a 20% chance a bug causes a 5-day delay, the risk exposure i
 
 ## ✅ Software quality
 
-Software quality management ensures that project deliverables meet defined standards and user requirements. It involves quality planning, quality assurance, and quality control processes that maintain the integrity of software products.
+Software quality is more than "it works"—it means your code is safe, maintainable, scalable, and makes users happy. High-quality software is cheaper to maintain, easier to evolve, and less likely to cause disasters.
 
-> 🧪 **Pro Tip:** Automatiza pruebas siempre que puedas. La calidad no es negociable, ¡pero sí escalable!
+---
+
+### 🚀 Why care about software quality?
+
+- Software failures can cause real harm: lost money, reputation, or even lives.
+- Clean, understandable code today = fewer bugs and surprises tomorrow.
+
+> 📝 **Pro Tip:** The cleaner your code, the less you'll fear future changes.
+
+---
+
+### 📏 Key standards & structural factors
+
+- **ISO/IEC 5055:2021**: Focuses on Security, Reliability, Performance Efficiency, and Maintainability.
+- **CISQ**: Adds Adequate Size (healthy code-to-functionality ratio).
+
+---
+
+### 🏆 Software quality factors (ISO/IEC 25010)
+
+| Factor              | Description                                                   |
+| ------------------- | ------------------------------------------------------------- |
+| **Usability**       | Helps users perform tasks safely, effectively, and enjoyably. |
+| **Reliability**     | Works without failure in a given time/environment.            |
+| **Efficiency**      | Delivers performance with optimal resource use.               |
+| **Reusability**     | Code/components can be reused in new apps.                    |
+| **Maintainability** | Easy to understand, fix, and improve.                         |
+| **Portability**     | Runs on different platforms/OSes with minimal changes.        |
+| **Testability**     | Easy to test systematically and efficiently.                  |
+
+> 📝 **Dev Hint:** "Can I test it?" is a fundamental design question.
+
+---
+
+### 🧠 Shneiderman's 8 Golden Rules for UI Design
+
+1. **Strive for consistency**
+2. **Seek universal usability**
+3. **Offer informative feedback**
+4. **Design dialogues for closure**
+5. **Offer simple error handling**
+6. **Permit easy reversal of actions**
+7. **Support internal locus of control**
+8. **Reduce short-term memory load**
+
+> 💡 **Example:** Confirmation before delete + undo = golden rule combo.
+
+---
+
+### 🧪 Static vs Dynamic Quality Assessment
+
+- **Static analysis:** Examines code without running it (linters, SonarQube). Finds bugs, style issues, vulnerabilities early.
+- **Dynamic analysis:** Tests software while running (unit, integration, system tests). Finds runtime bugs, performance issues.
+
+| Category      | Static Analysis            | Dynamic Analysis             |
+| ------------- | -------------------------- | ---------------------------- |
+| Code required | Source code only           | Executable version needed    |
+| Focus         | Structure, standards, bugs | Behavior, runtime conditions |
+| Tools         | Linters, SonarQube         | Selenium, profilers, JMeter  |
+| Coverage      | Full theoretical paths     | Based on test coverage       |
+| Cost          | Lower                      | Higher                       |
+
+---
+
+### 🧪 Testing taxonomy
+
+- **By nature:**
+  - Functional (features work as specified)
+  - Non-functional (speed, security, usability)
+- **By level:**
+  - Unit → Integration → System → Acceptance
+- **By strategy:**
+  - Incremental (build → test → extend)
+  - Non-incremental (test all at once)
+
+| Test Type         | Purpose                                  |
+| ----------------- | ---------------------------------------- |
+| **Performance**   | Speed under expected load                |
+| **Usability**     | User experience, intuitiveness           |
+| **Compatibility** | Runs across platforms, browsers, devices |
+| **Load**          | Stability under expected usage volume    |
+| **Stress**        | Behavior beyond normal capacity          |
+| **Scalability**   | Growth in users/data                     |
+| **Stability**     | Long-term reliability under normal use   |
+
+> 📝 **Dev Hint:** Reliability depends on real-world testing, not just code!
+
+---
+
+### 📊 Key metrics & tools
+
+- **Cyclomatic complexity:** Measures number of decision paths in code. High = harder to test/maintain.
+- **SonarQube:** Analyzes code for maintainability (code smells), reliability (bugs), security (vulnerabilities), and risk-prone logic (security hotspots).
+
+---
+
+### 🛡️ Vulnerabilities & technical debt
+
+- **Vulnerabilities:** Flaws that attackers can exploit (bad design, coding mistakes).
+- **Technical debt:** The cost of quick-and-dirty code that needs refactoring later. Like financial debt, it accrues "interest"—the longer you wait, the harder it is to fix.
+
+> 📝 **Dev Hint:** Sometimes technical debt is OK—if you document it and pay it off later.
+
+---
+
+### ✅ Key takeaways
+
+- Quality is not just "it works"—it's about safety, scalability, performance, and user happiness.
+- Testing is not a phase—it's a mindset.
+- Use standards, metrics, and tools to build better software from day one.
 
 ---
 
