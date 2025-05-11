@@ -39,6 +39,15 @@
     - [🧨 Common Procedural Risks](#-common-procedural-risks)
     - [✅ Key Takeaways](#-key-takeaways-1)
 
+
+> **ℹ️ Guía de Estudio — Cómo leer este documento**  
+> A lo largo del texto encontrarás:  
+> * **📝 Nota (ES):** aclaraciones rápidas en castellano de conceptos clave originalmente en inglés.  
+> * **💻 Dev‑Note:** consejos prácticos o puntos de atención pensados específicamente para tu rol de desarrollador de software.  
+> * **🔍 Ejemplo:** mini‑casos o escenarios para afianzar la comprensión.  
+> Sácales partido para conectar la perspectiva de gestión con tu día a día técnico.
+
+ 
 ## D9. Exposure, taxonomy and discovery
 
 Effective risk management begins with understanding what risk is, how to measure its impact, and how to classify and identify it within a project environment. This section introduces foundational concepts, practical classification systems (taxonomy), and structured strategies for risk discovery.
@@ -48,6 +57,8 @@ Effective risk management begins with understanding what risk is, how to measure
 ### 🔍 What Is a Risk?
 
 - A **risk** is a possible future event that may lead to an **undesirable outcome**.
+  *📝 Nota (ES):* *Riesgo* → “posible problema futuro”; *Problem* → “riesgo materializado”.  
+  🔍 **Ejemplo:** Un fallo de integración con la API de pagos *podría* ocurrir (riesgo). Si efectivamente bloquea las transacciones en producción, ya es un *problem*.
 - A **problem** is a risk that has already materialized.
 - Risks are defined by two key properties:
   - **Uncertainty** – the event may or may not happen.
@@ -82,6 +93,9 @@ A **risk transition** is when a potential risk becomes a **real problem**.
 $$$
 \text{Risk Exposure} = \text{Probability} \times \text{Cost}
 $$$
+
+📝 Nota (ES): *Risk Exposure* se traduce comúnmente como **“exposición al riesgo”**.  
+💻 Dev‑Note: en un sprint planning, puedes estimar la *exposición al riesgo* de un nuevo micro‑servicio multiplicando la probabilidad de fallo de despliegue (por ej. 15 %) por el tiempo de rollback (por ej. 4 h) ≈ 0,6 h de colchón que deberías reflejar en la story.
 
 - **Cost** can be expressed in money, time, or other measurable impacts.
 - Helps prioritize which risks are worth managing actively.
@@ -124,6 +138,8 @@ Categorizing risks helps structure discovery and responsibility. PMBOK and indus
 | **External**     | Supplier failures, regulatory changes, market instability |
 
 > **Tip:** Use the taxonomy to build a checklist or brainstorming guide.
+
+💻 Dev‑Note: Puedes convertir cada categoría en etiquetas de tu issue tracker (Jira, GitHub Projects, etc.) para filtrar rápidamente *bugs* con alto componente técnico frente a riesgos externos como proveedores de CDN.
 
 ---
 
@@ -258,6 +274,12 @@ Sometimes, the **delivery date is fixed**, but what gets delivered is flexible�
 
 > **Tip:** Mitigation is your first line of defense. Contingency is your fallback plan.
 
+📝 Nota (ES):  
+* **Mitigación** = “prevenir o reducir impacto/probabilidad” (trabajo *up‑front*).  
+* **Contingencia** = “plan B” listo para activarse si la cosa se complica.
+
+💻 Dev‑Note: piensa en **tests automatizados** (mitigación) vs. **feature‑flag para rollback rápido** (contingencia).
+
 ---
 
 ### 💰 Risk Reserve
@@ -273,6 +295,8 @@ A **risk reserve** is a buffer of time and money **set aside** to contain materi
 > Less defensive = allocate less than expected exposure
 
 **Mitigation reduces required reserves, but introduces fixed upfront costs.**
+
+🔍 **Ejemplo:** Tu equipo guarda 3 días de buffer en el sprint. Tras añadir tests de contrato (mitigación) el buffer se reduce a 1 día, pero ya no necesitas tantas horas de soporte durante el release.
 
 ---
 
