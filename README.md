@@ -1,7 +1,5 @@
 # 📘 Proyectos de Ingeniería y Gestión de Software
 
-¡Bienvenido! 👋 Este es tu **hub de recursos** para la asignatura **Proyectos de Ingeniería y Gestión de Software (40989 - GII)**. Aquí encontrarás resúmenes, ejemplos, plantillas y consejos prácticos para dominar la gestión de proyectos de software, desde la estimación hasta la calidad y los estándares profesionales.
-
 ---
 
 ## 📚 Contenido Rápido
@@ -65,7 +63,6 @@
 1. **Explora los resúmenes**: Cada sección condensa lo esencial de la materia, con ejemplos y tablas para repasar rápido antes de exámenes o prácticas.
 2. **Busca plantillas y ejemplos** en las carpetas temáticas para tus entregas o proyectos de equipo.
 3. **Consulta los cuadros comparativos** para elegir la mejor metodología según tu caso.
-4. **¿Dudas?** Usa los callouts y tips destacados para aclarar conceptos clave.
 
 > 💡 **Pro Tip:** ¡No memorices! Relaciona los conceptos con casos reales o tus propias experiencias para interiorizarlos mejor.
 
