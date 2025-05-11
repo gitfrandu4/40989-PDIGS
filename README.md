@@ -30,6 +30,16 @@
     - [🛡️ Vulnerabilities \& technical debt](#️-vulnerabilities--technical-debt)
     - [✅ Key takeaways](#-key-takeaways)
   - [📏 Standards](#-standards)
+    - [🏗️ What are project management standards?](#️-what-are-project-management-standards)
+    - [🔍 Methodologies at a glance](#-methodologies-at-a-glance)
+    - [🏛️ Métrica 3](#️-métrica-3)
+    - [🏰 PRINCE2](#-prince2)
+    - [🚀 Scrum](#-scrum)
+    - [💻 Extreme Programming (XP)](#-extreme-programming-xp)
+    - [🏭 Lean Software Development](#-lean-software-development)
+    - [🗂️ Kanban](#️-kanban)
+    - [📚 PMBOK (Project Management Body of Knowledge)](#-pmbok-project-management-body-of-knowledge)
+    - [🧭 How to choose?](#-how-to-choose)
   - [✨ Créditos](#-créditos)
 
 ---
@@ -398,71 +408,101 @@ Software quality is more than "it works"—it means your code is safe, maintaina
 
 ## 📏 Standards
 
-Modern project management relies on established standards and methodologies to ensure consistency, quality, and successful outcomes. Below is a summary of key standards and when to use each:
+Project management standards and methodologies provide a shared language, clear expectations, and proven practices for project success. They help teams avoid chaos, ensure quality, and scale up efficiently.
 
-Comparativa de marcos de trabajo y cuándo aplicarlos:
+---
 
-| Metodología   | Enfoque                    | Cuándo usarla                             |
-| ------------- | -------------------------- | ----------------------------------------- |
-| **Métrica 3** | Procesos públicos          | IT sector público español                 |
-| **PRINCE2**   | Control y gobernanza       | Proyectos regulados o complejos           |
-| **Scrum**     | Iterativo e incremental    | Productos con cambios rápidos             |
-| **XP**        | Prácticas de ingeniería    | Alta calidad técnica, entregas frecuentes |
-| **Lean**      | Eliminación de desperdicio | Mejora continua, eficiencia operativa     |
-| **Kanban**    | Flujo visual y WIP         | Soporte, DevOps, mantenimiento            |
-| **PMBOK**     | Buenas prácticas           | Portafolios, PMOs, proyectos grandes      |
+### 🏗️ What are project management standards?
 
-**1. Métrica 3**
+> **Definition:** Structured frameworks that guide how projects are started, planned, executed, monitored, and closed.
 
-- **Purpose:** Methodology for planning, developing, and maintaining information systems, especially in Spain's public sector.
-- **When to use:** Public IT projects in Spain or where legal/traceability requirements are strict.
-- **Key features:** Phase-based, strong documentation, quality gates, based on ISO/IEC standards.
+**Why use them?**
 
-**2. PRINCE2**
+- **Consistency:** No need to reinvent the wheel for every project.
+- **Efficiency:** Reduces miscommunication and wasted effort.
+- **Accountability:** Defines clear roles, responsibilities, and deliverables.
+- **Scalability:** Makes it easier to manage projects of any size.
 
-- **Purpose:** Structured project management method emphasizing control, roles, and stage boundaries.
-- **When to use:** Projects needing formal control, documentation, and clear governance (e.g., government, large organizations).
-- **Key features:** Business case focus, stage reviews, adaptable to traditional and agile projects.
+---
 
-**3. Scrum**
+### 🔍 Methodologies at a glance
 
-- **Purpose:** Agile framework for iterative, incremental product development.
-- **When to use:** Fast-changing environments, startups, or feature-driven teams needing adaptability.
-- **Key features:** Sprints, roles (Product Owner, Scrum Master, Team), artifacts (backlogs, burndown charts), regular reviews.
+| Methodology   | Approach/Focus          | When to use it                        |
+| ------------- | ----------------------- | ------------------------------------- |
+| **Métrica 3** | Public sector, process  | IT projects in Spain's public sector  |
+| **PRINCE2**   | Control, governance     | Regulated or complex projects         |
+| **Scrum**     | Iterative, agile        | Fast-changing, feature-driven teams   |
+| **XP**        | Engineering practices   | High technical quality, rapid release |
+| **Lean**      | Waste elimination       | Continuous improvement, efficiency    |
+| **Kanban**    | Visual flow, WIP limits | Support, DevOps, maintenance          |
+| **PMBOK**     | Best practices, process | Large projects, portfolios, PMOs      |
 
-**4. Extreme Programming (XP)**
+---
 
-- **Purpose:** Agile methodology focused on engineering practices for high-quality code.
-- **When to use:** Teams prioritizing technical excellence, rapid feedback, and frequent releases.
-- **Key features:** Test-driven development, pair programming, continuous integration.
+### 🏛️ Métrica 3
 
-**5. Lean Software Development**
+- **Purpose:** Planning, developing, and maintaining information systems (esp. Spain's public sector)
+- **Key:** Phase-based, strong documentation, legal/traceability focus
+- **When:** Public IT projects, or where legal compliance is strict
 
-- **Purpose:** Minimize waste and maximize value in software delivery.
-- **When to use:** Projects seeking efficiency, rapid delivery, and continuous improvement.
-- **Key features:** Eliminate waste, empower teams, deliver fast, build quality in.
+---
 
-**6. Kanban**
+### 🏰 PRINCE2
 
-- **Purpose:** Visual workflow management to optimize flow and limit work in progress.
-- **When to use:** Maintenance, support, DevOps, or teams seeking incremental process improvement.
-- **Key features:** Visual boards, WIP limits, evolutionary change.
+- **Purpose:** Structured project management with clear roles and stage boundaries
+- **Key:** Business case focus, stage reviews, adaptable to traditional/agile
+- **When:** Projects needing formal control, documentation, and governance
 
-**7. PMBOK (Project Management Body of Knowledge)**
+---
 
-- **Purpose:** Comprehensive framework covering all aspects of project management.
-- **When to use:** Large, complex projects or portfolios needing structured processes and best practices.
-- **Key features:** Process groups (Initiating, Planning, Executing, Monitoring & Controlling, Closing), 10 knowledge areas (scope, time, cost, quality, etc.), RACI matrices.
+### 🚀 Scrum
 
-**Choosing a Methodology:**
+- **Purpose:** Agile framework for iterative, incremental product development
+- **Key:** Sprints, Product Owner, Scrum Master, team roles, backlogs, burndown charts
+- **When:** Fast-changing environments, startups, or teams needing adaptability
 
-- Consider project size, complexity, regulatory needs, and stakeholder involvement.
-- Métrica 3: Public sector IT in Spain.
-- Scrum/XP: Fast-paced, product-focused teams.
-- PRINCE2: Projects needing control and documentation.
-- Lean/Kanban: Continuous delivery, maintenance, or process improvement.
-- PMBOK: Comprehensive oversight for large or complex initiatives.
-- Tailor your approach—combine elements as needed for your project's context.
+---
+
+### 💻 Extreme Programming (XP)
+
+- **Purpose:** Agile methodology focused on engineering excellence
+- **Key:** Test-driven development, pair programming, continuous integration
+- **When:** Teams prioritizing technical quality and rapid feedback
+
+---
+
+### 🏭 Lean Software Development
+
+- **Purpose:** Minimize waste, maximize value
+- **Key:** Eliminate waste, empower teams, deliver fast, build quality in
+- **When:** Projects seeking efficiency, rapid delivery, and continuous improvement
+
+---
+
+### 🗂️ Kanban
+
+- **Purpose:** Visual workflow management, optimize flow, limit work in progress
+- **Key:** Visual boards, WIP limits, evolutionary change
+- **When:** Maintenance, support, DevOps, or teams seeking incremental improvement
+
+---
+
+### 📚 PMBOK (Project Management Body of Knowledge)
+
+- **Purpose:** Comprehensive framework for all aspects of project management
+- **Key:** Process groups (Initiating, Planning, Executing, Monitoring & Controlling, Closing), 10 knowledge areas, RACI matrices
+- **When:** Large, complex projects or portfolios needing structured processes and best practices
+
+---
+
+### 🧭 How to choose?
+
+- **Métrica 3:** Public sector IT in Spain
+- **Scrum/XP:** Fast-paced, product-focused teams
+- **PRINCE2:** Projects needing control and documentation
+- **Lean/Kanban:** Continuous delivery, maintenance, or process improvement
+- **PMBOK:** Comprehensive oversight for large or complex initiatives
+- **Pro Tip:** Tailor your approach—combine elements as needed for your project's context!
 
 ---
 
