@@ -13,6 +13,12 @@
   - [🔢 Estimation](#-estimation)
   - [🗂️ Planning](#️-planning)
   - [⚠️ Risk management](#️-risk-management)
+    - [🧩 What is a risk?](#-what-is-a-risk)
+    - [🗂️ Risk taxonomy](#️-risk-taxonomy)
+    - [🎯 Strategies for managing risks](#-strategies-for-managing-risks)
+    - [🚦 Risk discovery and detection](#-risk-discovery-and-detection)
+    - [💡 Practical examples of risks and mitigation](#-practical-examples-of-risks-and-mitigation)
+    - [🏆 Keys to surviving risk](#-keys-to-surviving-risk)
   - [✅ Software quality](#-software-quality)
   - [📏 Standards](#-standards)
   - [✨ Créditos](#-créditos)
@@ -183,9 +189,84 @@ Effective project planning defines the path from idea to delivery, ensuring scop
 
 ## ⚠️ Risk management
 
-Risk management focuses on identifying potential risks, analyzing their impact, and developing mitigation strategies. This ongoing process includes risk identification, assessment, response planning, and continuous monitoring throughout the project lifecycle.
+Risk management is the art of anticipating problems before they become crises. It's not just for big companies—every software project, from a class assignment to a global SaaS, needs to think about risks!
 
-> ⚡ **Tip:** ¡No ignores los riesgos pequeños! A menudo, los problemas más grandes empiezan con detalles que nadie vigiló.
+---
+
+### 🧩 What is a risk?
+
+> **Risk:** An uncertain event that, if it occurs, will affect one or more project objectives (scope, time, cost, quality)—for better or worse.
+
+- **Risk ≠ Problem:** A risk is a future uncertainty; a problem has already happened.
+- **Risk exposure:** Probability × Impact (in money, time, reputation, etc.)
+
+```text
+Example: If there's a 20% chance a bug causes a 5-day delay, the risk exposure is 1 day.
+```
+
+---
+
+### 🗂️ Risk taxonomy
+
+| Type               | Main examples                                        |
+| ------------------ | ---------------------------------------------------- |
+| **Technical**      | Requirement changes, tough integration, obsolescence |
+| **Management**     | Bad estimation, poor communication, unclear scope    |
+| **Organizational** | Lack of resources, budget issues, dependencies       |
+| **External**       | Suppliers, regulations, market, natural disasters    |
+
+> 💡 **Tip:** Use this table as a checklist in your planning meetings.
+
+---
+
+### 🎯 Strategies for managing risks
+
+| Strategy     | What it means                                      |
+| ------------ | -------------------------------------------------- |
+| **Avoid**    | Don't do the risky task (but you lose the benefit) |
+| **Mitigate** | Reduce probability/impact before it happens        |
+| **Contain**  | Set aside time/money to absorb the hit             |
+| **Evade**    | Wait for the risk to disappear on its own          |
+
+- **Mitigation:** Preventive actions (tests, prototypes, training...)
+- **Contingency:** Plan B ready to activate if the risk materializes (runbook, rollback, time buffer)
+- **Risk reserve:** Time/money buffer proportional to total exposure
+
+> 🛡️ **Pro Tip:** Mitigate what you can, and always have a contingency plan for what you can't control!
+
+---
+
+### 🚦 Risk discovery and detection
+
+- **Postmortem mining:** Analyze past projects and turn problems into future risks.
+- **6-3-5 Brainwriting:** Fast team technique to generate dozens of risks.
+- **Transition:** A risk becomes a problem when it materializes. Use early warning indicators ("smells like trouble") to get ahead of issues.
+
+> 👀 **Don't ignore small risks!** Big problems often start as overlooked details.
+
+---
+
+### 💡 Practical examples of risks and mitigation
+
+- **Estimation & planning:** Involve the team, iterate quickly, learn from every sprint.
+- **Requirements inflation:** Continuous prioritization and frequent client feedback.
+- **Staff turnover:** Document, pair program, encourage collaboration.
+- **Incomplete specs:** Active Product Owner, JAD sessions, prototypes.
+- **Low productivity:** Short iterations, coaching, clear goals.
+- **Budget overrun:** Rolling wave planning, review and adjust frequently.
+- **Knowledge silos:** Share, document, use cross-functional squads.
+
+---
+
+### 🏆 Keys to surviving risk
+
+- Risks are tomorrow's problems: manage them today!
+- Quantify exposure to prioritize (not all risks deserve your time).
+- Use taxonomies and structured techniques to cover all bases.
+- Team culture matters: encourage transparency and anticipation.
+- Mitigate, but always have a plan B.
+
+> 🚀 **Pro Tip:** The best project isn't the one with no risks—it's the one that manages them best!
 
 ---
 
