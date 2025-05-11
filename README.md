@@ -98,4 +98,56 @@ Software quality management ensures that project deliverables meet defined stand
 
 ## Standards
 
-Project management standards provide frameworks and best practices for consistent project execution. Common standards include PMI's PMBOK, PRINCE2, and various agile methodologies like Scrum, Kanban, and XP that guide project governance and execution.
+Modern project management relies on established standards and methodologies to ensure consistency, quality, and successful outcomes. Below is a summary of key standards and when to use each:
+
+**1. Métrica 3**
+
+- **Purpose:** Methodology for planning, developing, and maintaining information systems, especially in Spain's public sector.
+- **When to use:** Public IT projects in Spain or where legal/traceability requirements are strict.
+- **Key features:** Phase-based, strong documentation, quality gates, based on ISO/IEC standards.
+
+**2. PRINCE2**
+
+- **Purpose:** Structured project management method emphasizing control, roles, and stage boundaries.
+- **When to use:** Projects needing formal control, documentation, and clear governance (e.g., government, large organizations).
+- **Key features:** Business case focus, stage reviews, adaptable to traditional and agile projects.
+
+**3. Scrum**
+
+- **Purpose:** Agile framework for iterative, incremental product development.
+- **When to use:** Fast-changing environments, startups, or feature-driven teams needing adaptability.
+- **Key features:** Sprints, roles (Product Owner, Scrum Master, Team), artifacts (backlogs, burndown charts), regular reviews.
+
+**4. Extreme Programming (XP)**
+
+- **Purpose:** Agile methodology focused on engineering practices for high-quality code.
+- **When to use:** Teams prioritizing technical excellence, rapid feedback, and frequent releases.
+- **Key features:** Test-driven development, pair programming, continuous integration.
+
+**5. Lean Software Development**
+
+- **Purpose:** Minimize waste and maximize value in software delivery.
+- **When to use:** Projects seeking efficiency, rapid delivery, and continuous improvement.
+- **Key features:** Eliminate waste, empower teams, deliver fast, build quality in.
+
+**6. Kanban**
+
+- **Purpose:** Visual workflow management to optimize flow and limit work in progress.
+- **When to use:** Maintenance, support, DevOps, or teams seeking incremental process improvement.
+- **Key features:** Visual boards, WIP limits, evolutionary change.
+
+**7. PMBOK (Project Management Body of Knowledge)**
+
+- **Purpose:** Comprehensive framework covering all aspects of project management.
+- **When to use:** Large, complex projects or portfolios needing structured processes and best practices.
+- **Key features:** Process groups (Initiating, Planning, Executing, Monitoring & Controlling, Closing), 10 knowledge areas (scope, time, cost, quality, etc.), RACI matrices.
+
+**Choosing a Methodology:**
+
+- Consider project size, complexity, regulatory needs, and stakeholder involvement.
+- Métrica 3: Public sector IT in Spain.
+- Scrum/XP: Fast-paced, product-focused teams.
+- PRINCE2: Projects needing control and documentation.
+- Lean/Kanban: Continuous delivery, maintenance, or process improvement.
+- PMBOK: Comprehensive oversight for large or complex initiatives.
+- Tailor your approach—combine elements as needed for your project's context.
